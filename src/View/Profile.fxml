@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.effect.DropShadow?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.StackPane?>
+<?import javafx.scene.paint.Color?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="786.05" prefWidth="1397.42" style="-fx-background-color: #ffffff;" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller.ProfileController">
+   <children>
+      <ImageView fitHeight="140.97" fitWidth="138.29" layoutX="65.5">
+         <image>
+            <Image url="@../Images/logo.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="32.75" fitWidth="32.75" layoutX="1231.11" layoutY="48.85">
+         <image>
+            <Image url="@../Images/profile.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="32.02" fitWidth="32.75" layoutX="1295.52" layoutY="48.94">
+         <image>
+            <Image url="@../Images/logout.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="592.45" fitWidth="1262.97" layoutX="65.5" layoutY="125.91">
+         <image>
+            <Image url="@../Images/bg.png" />
+         </image>
+      </ImageView>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="592.0" layoutX="1328.0" layoutY="126.0" stroke="#ffffff00" strokeType="INSIDE" width="71.0" />
+      <Rectangle arcHeight="30.0" arcWidth="30.0" fill="WHITE" height="473.0" layoutX="156.0" layoutY="189.0" stroke="#ffffff00" strokeLineCap="ROUND" strokeType="INSIDE" width="1098.0">
+         <effect>
+            <DropShadow offsetY="2.0" spread="0.11">
+               <color>
+                  <Color opacity="0.6139817833900452" />
+               </color>
+            </DropShadow>
+         </effect>
+      </Rectangle>
+      <Label fx:id="notvalidDate" layoutX="350.0" layoutY="588.0" text="Date should be 1 to 31 only." textFill="#1b0e70" visible="false">
+         <font>
+            <Font size="9.0" />
+         </font>
+      </Label>
+      <Label layoutX="190.0" layoutY="206.0" prefHeight="61.0" prefWidth="187.0" text="My Profile" textFill="#1b0e70">
+         <font>
+            <Font name="Arial Black" size="30.0" />
+         </font>
+      </Label>
+      <Line endX="931.02001953125" endY="3.0517578125E-5" layoutX="289.0" layoutY="281.0" startX="-100.0" stroke="#1b0e70" />
+      <Label layoutX="264.0" layoutY="360.0" text="Username:" textFill="#1b0e70">
+         <font>
+            <Font name="Arial" size="19.0" />
+         </font>
+      </Label>
+      <Label layoutX="300.0" layoutY="414.0" text="Name:" textFill="#1b0e70">
+         <font>
+            <Font name="Arial" size="19.0" />
+         </font>
+      </Label>
+      <Label layoutX="297.0" layoutY="464.0" text="E-mail:" textFill="#1b0e70">
+         <font>
+            <Font name="Arial" size="19.0" />
+         </font>
+      </Label>
+      <Label layoutX="223.0" layoutY="516.0" prefHeight="22.0" prefWidth="138.0" text="Phone Number:" textFill="#1b0e70">
+         <font>
+            <Font name="Arial" size="19.0" />
+         </font>
+      </Label>
+      <Line endX="-100.0" endY="262.0" layoutX="901.0" layoutY="318.0" startX="-100.0" stroke="#1b0e70" />
+      <ImageView accessibleRole="BUTTON" fitHeight="33.0" fitWidth="146.0" layoutX="921.0" layoutY="318.0">
+         <image>
+            <Image url="@../Images/button%20sign.png" />
+         </image>
+      </ImageView>
+      <Label layoutX="935.0" layoutY="325.0" text="Select your Avatar" textFill="WHITE">
+         <font>
+            <Font name="Arial Bold" size="14.0" />
+         </font>
+      </Label>
+      <Button layoutX="376.0" layoutY="50.0" mnemonicParsing="false" onAction="#gotoHome" prefHeight="35.0" prefWidth="117.0" style="-fx-background-color: #ffffff;" styleClass="hoverstyle" stylesheets="@hoverstyle.css" text="Home" textAlignment="CENTER" textFill="#e69dda">
+         <font>
+            <Font name="Arial Black" size="23.29" />
+         </font>
+      </Button>
+      <Button layoutX="847.0" layoutY="50.0" mnemonicParsing="false" onAction="#gotoShop" prefHeight="35.0" prefWidth="132.0" style="-fx-background-color: #ffffff;" styleClass="hoverstyle" stylesheets="@hoverstyle.css" text="Shop" textFill="#e69dda">
+         <font>
+            <Font name="Arial Black" size="23.29" />
+         </font>
+      </Button>
+      <Button layoutX="544.0" layoutY="50.0" mnemonicParsing="false" onAction="#gotoAbout" prefHeight="35.0" prefWidth="117.0" style="-fx-background-color: #ffffff;" styleClass="hoverstyle" stylesheets="@hoverstyle.css" text="About" textFill="#e69dda">
+         <font>
+            <Font name="Arial Black" size="23.29" />
+         </font>
+      </Button>
+      <Button layoutX="708.0" layoutY="50.0" mnemonicParsing="false" onAction="#gotoBlog" prefHeight="35.0" prefWidth="107.0" style="-fx-background-color: #ffffff;" styleClass="hoverstyle" stylesheets="@hoverstyle.css" text="Blogs" textFill="#e69dda">
+         <font>
+            <Font name="Arial Black" size="23.29" />
+         </font>
+      </Button>
+      <Button layoutX="1294.0" layoutY="50.0" mnemonicParsing="false" onAction="#gotoLogin" opacity="0.0" prefHeight="30.0" prefWidth="33.0" text="Signout" />
+      <StackPane fx:id="stackPane" layoutX="882.0" layoutY="325.0" prefHeight="227.0" prefWidth="229.0">
+         <children>
+            <ImageView fitHeight="280.0" fitWidth="198.0" pickOnBounds="true" preserveRatio="true" visible="false">
+               <image>
+                  <Image url="@../Images/avatar4.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="280.0" fitWidth="198.0" pickOnBounds="true" preserveRatio="true" visible="false">
+               <image>
+                  <Image url="@../Images/avatar3.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="280.0" fitWidth="198.0" pickOnBounds="true" preserveRatio="true" visible="false">
+               <image>
+                  <Image url="@../Images/avatar2.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="imageView" fitHeight="280.0" fitWidth="198.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../Images/avatar1.png" />
+               </image>
+            </ImageView>
+         </children>
+      </StackPane>
+      <ImageView fitHeight="30.0" fitWidth="33.0" layoutX="1147.0" layoutY="445.0" pickOnBounds="true" preserveRatio="true" rotate="180.0">
+         <image>
+            <Image url="@../Images/backbutton.png" />
+         </image>
+      </ImageView>
+      <Button fx:id="nextimage" layoutX="1145.0" layoutY="439.0" mnemonicParsing="false" onAction="#nextimage" opacity="0.0" prefHeight="42.0" prefWidth="36.0" text="nextimage" />
+      <Label fx:id="usernameLabel" layoutX="390.0" layoutY="360.0" text="Label" textFill="#1b0e70">
+         <font>
+            <Font name="Arial" size="19.0" />
+         </font></Label>
+      <Label fx:id="nameLabel" layoutX="390.0" layoutY="414.0" text="Label" textFill="#1b0e70">
+         <font>
+            <Font name="Arial" size="19.0" />
+         </font></Label>
+      <Label fx:id="emailLabel" layoutX="390.0" layoutY="464.0" text="Label" textFill="#1b0e70">
+         <font>
+            <Font name="Arial" size="19.0" />
+         </font></Label>
+      <Label fx:id="numberLabel" layoutX="390.0" layoutY="516.0" text="Label" textFill="#1b0e70">
+         <font>
+            <Font name="Arial" size="19.0" />
+         </font></Label>
+   </children>
+</Pane>

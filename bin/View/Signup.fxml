@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Hyperlink?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.effect.DropShadow?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.paint.Color?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.text.Font?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="786.05" prefWidth="1397.42" style="-fx-background-color: #ffffff;" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller.SignupController">
+   <children>
+      <ImageView fitHeight="786.05" fitWidth="692.89" layoutX="-1.0" layoutY="1.0">
+         <image>
+            <Image url="@../Images/bg.png" />
+         </image>
+      </ImageView>
+      <Label id="Sgn" layoutX="867.0" layoutY="101.0" text="Create Account " textFill="#1b0e70">
+         <font>
+            <Font name="SansSerif Bold" size="46.58" />
+         </font>
+      </Label>
+      <TextField fx:id="emailTF" layoutX="884.0" layoutY="397.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="43.67" prefWidth="311.51" promptText="E-mail" style="-fx-background-color: #ffffff;">
+         <font>
+            <Font name="SansSerif Bold" size="20.0" />
+         </font>
+         <effect>
+            <DropShadow height="10.0" radius="4.5" width="10.0" />
+         </effect>
+      </TextField>
+      <Line endX="667.5" endY="489.1000061035156" layoutX="480.0" layoutY="-54.0" startX="667.5" startY="459.0" stroke="#00000034" strokeWidth="1.5" />
+      <PasswordField fx:id="passwordPF" layoutX="884.0" layoutY="471.0" prefHeight="43.67" prefWidth="311.51" promptText="Password" style="-fx-background-color: #ffffff;">
+         <font>
+            <Font name="SansSerif Bold" size="20.0" />
+         </font>
+         <effect>
+            <DropShadow height="10.0" radius="4.5" width="10.0" />
+         </effect>
+      </PasswordField>
+      <ImageView fitHeight="32.0" fitWidth="31.0" layoutX="1155.0" layoutY="402.0" opacity="0.21">
+         <image>
+            <Image url="@../Images/email.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="25.0" fitWidth="25.0" layoutX="1157.0" layoutY="481.0" opacity="0.2">
+         <image>
+            <Image url="@../Images/password.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="105.53" fitWidth="106.99" layoutX="1273.0" layoutY="-2.0">
+         <image>
+            <Image url="@../Images/logo.png" />
+         </image>
+      </ImageView>
+      <Line endX="667.5" endY="489.1000061035156" layoutX="480.0" layoutY="19.0" startX="667.5" startY="459.0" stroke="#00000034" strokeWidth="1.5" />
+      <TextField fx:id="nameTF" layoutX="884.0" layoutY="169.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="43.67" prefWidth="311.51" promptText="Name" style="-fx-background-color: #ffffff;">
+         <font>
+            <Font name="SansSerif Bold" size="20.0" />
+         </font>
+         <effect>
+            <DropShadow height="10.0" radius="4.5" width="10.0" />
+         </effect>
+      </TextField>
+      <Line endX="667.5" endY="489.1000061035156" layoutX="480.0" layoutY="-283.0" startX="667.5" startY="459.0" stroke="#00000034" strokeWidth="1.5" />
+      <TextField fx:id="usernameTF" layoutX="883.0" layoutY="244.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="43.67" prefWidth="311.51" promptText="Username" style="-fx-background-color: #ffffff;">
+         <font>
+            <Font name="SansSerif Bold" size="20.0" />
+         </font>
+         <effect>
+            <DropShadow height="10.0" radius="4.5" width="10.0" />
+         </effect>
+      </TextField>
+      <Line endX="667.5" endY="489.1000061035156" layoutX="479.0" layoutY="-209.0" startX="667.5" startY="459.0" stroke="#00000034" strokeWidth="1.5" />
+      <TextField fx:id="numberTF" layoutX="883.0" layoutY="319.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="43.67" prefWidth="311.51" promptText="Contact Number" style="-fx-background-color: #ffffff;">
+         <font>
+            <Font name="SansSerif Bold" size="20.0" />
+         </font>
+         <effect>
+            <DropShadow height="10.0" radius="4.5" width="10.0" />
+         </effect>
+      </TextField>
+      <Line endX="667.5" endY="489.1000061035156" layoutX="479.0" layoutY="-132.0" startX="667.5" startY="459.0" stroke="#00000034" strokeWidth="1.5" />
+      <ImageView fitHeight="26.0" fitWidth="27.0" layoutX="1155.0" layoutY="328.0" opacity="0.21">
+         <image>
+            <Image url="@../Images/phone-call.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="28.0" fitWidth="28.0" layoutX="1154.0" layoutY="177.0" opacity="0.21">
+         <image>
+            <Image url="@../Images/user.png" />
+         </image>
+      </ImageView>
+      <ImageView accessibleRole="BUTTON" fitHeight="56.04" fitWidth="203.97" layoutX="941.0" layoutY="581.0">
+         <image>
+            <Image url="@../Images/button%20sign.png" />
+         </image>
+      </ImageView>
+      <Label id="Sgn" accessibleRole="BUTTON" layoutX="1006.0" layoutY="593.0" text="Sign up" textFill="WHITE">
+         <font>
+            <Font name="SansSerif Bold" size="24.0" />
+         </font>
+      </Label>
+      <Label layoutX="953.0" layoutY="746.0" text="Connect with our Socials!" textFill="#030303">
+         <font>
+            <Font name="SansSerif Bold" size="15.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="79.0" fitWidth="79.0" layoutX="1100.0" layoutY="662.0">
+         <image>
+            <Image url="@../Images/ig.png" />
+         </image>
+         <effect>
+            <DropShadow height="25.68" offsetX="-3.0" offsetY="5.0" radius="11.754999999999999" width="23.34">
+               <color>
+                  <Color red="0.5645380020141602" green="0.5454970598220825" blue="0.9263157844543457" />
+               </color>
+            </DropShadow>
+         </effect>
+      </ImageView>
+      <ImageView fitHeight="79.0" fitWidth="79.0" layoutX="912.0" layoutY="662.0">
+         <image>
+            <Image url="@../Images/facebook.png" />
+         </image>
+         <effect>
+            <DropShadow height="24.51" offsetX="-3.0" offsetY="5.0" radius="11.4625" width="23.34">
+               <color>
+                  <Color red="0.5645380020141602" green="0.5454970598220825" blue="0.9263157844543457" />
+               </color>
+            </DropShadow>
+         </effect>
+      </ImageView>
+      <ImageView fitHeight="79.0" fitWidth="79.0" layoutX="1006.0" layoutY="662.0">
+         <image>
+            <Image url="@../Images/google.png" />
+         </image>
+         <effect>
+            <DropShadow height="25.68" offsetX="-3.0" offsetY="5.0" radius="11.754999999999999" width="23.34">
+               <color>
+                  <Color red="0.5645380020141602" green="0.5454970598220825" blue="0.9263157844543457" />
+               </color>
+            </DropShadow>
+         </effect>
+      </ImageView>
+      <ImageView fitHeight="805.0" fitWidth="557.0" layoutX="87.0" layoutY="-11.0">
+         <image>
+            <Image url="@../Images/doghome%20(1).png" />
+         </image>
+      </ImageView>
+      <Label id="Sgn" layoutX="201.0" layoutY="590.0" text="Hello, pawfriend!" textFill="WHITE">
+         <font>
+            <Font name="SansSerif Bold" size="40.03" />
+         </font>
+      </Label>
+      <Label id="Sgn" layoutX="204.0" layoutY="650.0" text="Start your journey today" textFill="WHITE">
+         <font>
+            <Font name="SansSerif Regular" size="29.11" />
+         </font>
+      </Label>
+      <Label id="Sgn" layoutX="179.0" layoutY="680.0" text="and let the happiness begin" textFill="WHITE">
+         <font>
+            <Font name="SansSerif Regular" size="29.11" />
+         </font>
+      </Label>
+      <ImageView fitHeight="28.0" fitWidth="28.0" layoutX="1153.0" layoutY="251.0" opacity="0.21">
+         <image>
+            <Image url="@../Images/user.png" />
+         </image>
+      </ImageView>
+      <Button fx:id="signupBT" layoutX="942.0" layoutY="581.0" mnemonicParsing="false" onAction="#signup" opacity="0.0" prefHeight="56.0" prefWidth="204.0" text="Signup" />
+      <Label fx:id="mywarninglabel1" layoutX="885.0" layoutY="289.0" minHeight="-Infinity" prefHeight="32.0" prefWidth="312.0" textFill="#1b0e70" visible="false" />
+      <Label fx:id="mywarninglabel2" layoutX="885.0" layoutY="365.0" minHeight="-Infinity" prefHeight="32.0" prefWidth="312.0" textFill="#1b0e70" visible="false" />
+      <Label fx:id="mywarninglabel3" layoutX="885.0" layoutY="440.0" minHeight="-Infinity" prefHeight="32.0" prefWidth="312.0" textFill="#1b0e70" visible="false" />
+      <Label fx:id="mywarninglabel4" layoutX="885.0" layoutY="523.0" minHeight="-Infinity" prefHeight="32.0" prefWidth="312.0" textFill="#1b0e70" visible="false">
+         <font>
+            <Font size="11.0" />
+         </font>
+      </Label>
+      <Hyperlink layoutX="922.0" layoutY="668.0" onAction="#gotoFB" prefHeight="63.0" prefWidth="58.0" style="-fx-text-fill: transparent; -fx-border-color: transparent;" text="fb" />
+      <Hyperlink layoutX="1017.0" layoutY="669.0" onAction="#gotoGMAIL" prefHeight="63.0" prefWidth="58.0" style="-fx-text-fill: transparent; -fx-border-color: transparent;" text="gmail" />
+      <Hyperlink layoutX="1111.0" layoutY="668.0" onAction="#gotoIG" prefHeight="63.0" prefWidth="58.0" style="-fx-text-fill: transparent; -fx-border-color: transparent;" text="ig" />
+   </children>
+</Pane>

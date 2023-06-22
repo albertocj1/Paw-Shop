@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.effect.DropShadow?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.paint.Color?>
+<?import javafx.scene.paint.LinearGradient?>
+<?import javafx.scene.paint.Stop?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="786.05" prefWidth="1397.42" style="-fx-background-color: #ffffff;" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller.HomeImageSlideController">
+   <children>
+      <ImageView fitHeight="140.97" fitWidth="138.29" layoutX="65.5">
+         <image>
+            <Image url="@../Images/logo.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="32.75" fitWidth="32.75" layoutX="1228.11" layoutY="49.85">
+         <image>
+            <Image url="@../Images/profile.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="32.02" fitWidth="32.75" layoutX="1295.52" layoutY="48.94">
+         <image>
+            <Image url="@../Images/logout.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="592.45" fitWidth="1262.97" layoutX="65.5" layoutY="125.91">
+         <image>
+            <Image url="@../Images/bg.png" />
+         </image>
+      </ImageView>
+      <Text fill="#30248e" layoutX="-36.0" layoutY="-23.0" strokeType="OUTSIDE" strokeWidth="0.0" text="We're Here" x="155.0" y="296.0">
+         <font>
+            <Font name="Arial Black" size="90.0" />
+         </font>
+         <effect>
+            <DropShadow height="18.72" offsetY="4.0" radius="4.18" width="0.0">
+               <color>
+                  <Color red="0.671532154083252" green="0.5585964918136597" blue="0.75789475440979" />
+               </color>
+            </DropShadow>
+         </effect>
+      </Text>
+      <Text fill="#2f248c" layoutX="-35.0" layoutY="80.0" strokeType="OUTSIDE" strokeWidth="0.0" text="to Nurture" x="155.0" y="296.0">
+         <font>
+            <Font name="Arial Black" size="90.0" />
+         </font>
+         <effect>
+            <DropShadow height="18.72" offsetY="4.0" radius="4.18" width="0.0">
+               <color>
+                  <Color red="0.671532154083252" green="0.5585964918136597" blue="0.75789475440979" />
+               </color>
+            </DropShadow>
+         </effect>
+      </Text>
+      <Text layoutX="-37.0" layoutY="185.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Furry Dreams" x="155.0" y="296.0">
+         <font>
+            <Font name="Arial Black" size="90.0" />
+         </font>
+         <fill>
+            <LinearGradient endX="0.7196970383326212" endY="0.4450757864749794" startX="0.7121212690165549" startY="0.12878786433826794">
+               <stops>
+                  <Stop>
+                     <color>
+                        <Color red="0.21960784494876862" green="0.16862745583057404" blue="0.545098066329956" />
+                     </color>
+                  </Stop>
+                  <Stop offset="1.0">
+                     <color>
+                        <Color red="0.21568627655506134" green="0.16862745583057404" blue="0.5411764979362488" opacity="0.7699999809265137" />
+                     </color>
+                  </Stop>
+               </stops>
+            </LinearGradient>
+         </fill>
+         <effect>
+            <DropShadow height="18.72" offsetY="4.0" radius="4.18" width="0.0">
+               <color>
+                  <Color red="0.671532154083252" green="0.5585964918136597" blue="0.75789475440979" />
+               </color>
+            </DropShadow>
+         </effect>
+      </Text>
+      <ImageView fitHeight="82.0" fitWidth="76.0" layoutX="74.0" layoutY="153.0">
+         <image>
+            <Image url="@../Images/splashhh.gif" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="60.0" fitWidth="197.0" layoutX="640.0" layoutY="325.0">
+         <image>
+            <Image url="@../Images/button%20sign.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="imageView" fitHeight="184.0" fitWidth="164.0" layoutX="658.0" layoutY="200.0" onMouseEntered="#handleMouseEntered" onMouseExited="#handleMouseExited">
+         <image>
+            <Image url="@../Images/doggg.png" />
+         </image>
+      </ImageView>
+      <Text fill="#1b0e70" layoutX="121.0" layoutY="533.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Welcome to our online haven, where we passionately nurture and pamper our furry friends. " wrappingWidth="1039.740966796875">
+         <font>
+            <Font name="Arial" size="18.0" />
+         </font>
+      </Text>
+      <Text fill="#1b0e70" layoutX="122.0" layoutY="552.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Discover a world of tail-wagging joy and unconditional love, right at your fingertips." wrappingWidth="1039.740966796875">
+         <font>
+            <Font name="Arial" size="18.0" />
+         </font>
+      </Text>
+      <ImageView fitHeight="68.0" fitWidth="320.0" layoutX="141.0" layoutY="600.0">
+         <image>
+            <Image url="@../Images/buttonhome%20outline.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="68.0" fitWidth="332.0" layoutX="124.0" layoutY="593.0">
+         <image>
+            <Image url="@../Images/buttonhome.png" />
+         </image>
+         <effect>
+            <DropShadow height="13.98" offsetY="5.0" radius="8.83" width="23.34">
+               <color>
+                  <Color red="0.6863547563552856" green="0.6358674168586731" blue="0.7368420958518982" />
+               </color>
+            </DropShadow>
+         </effect>
+      </ImageView>
+      <Text fill="WHITE" layoutX="200.0" layoutY="636.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Shop Now">
+         <font>
+            <Font name="Arial Black" size="32.0" />
+         </font>
+      </Text>
+      <ImageView fitHeight="604.82" fitWidth="469.44" layoutX="874.0" layoutY="122.0">
+         <image>
+            <Image url="@../Images/circle.png" />
+         </image>
+         <effect>
+            <DropShadow offsetX="-5.0">
+               <color>
+                  <Color red="0.6763580441474915" green="0.6037036776542664" blue="1.0" />
+               </color>
+            </DropShadow>
+         </effect>
+      </ImageView>
+      <ImageView id="image1" fx:id="image1" fitHeight="346.0" fitWidth="311.0" layoutX="1026.0" layoutY="264.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Images/C1.%20PRODUCT.png" />
+         </image>
+      </ImageView>
+      <ImageView id="image2" fx:id="image4" fitHeight="331.0" fitWidth="326.0" layoutX="1615.0" layoutY="262.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Images/C2.%20PRODUCT.png" />
+         </image>
+      </ImageView>
+      <ImageView id="image4" fx:id="image2" fitHeight="411.0" fitWidth="400.0" layoutX="1570.0" layoutY="216.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Images/2%20PRODUCT.png" />
+         </image>
+      </ImageView>
+      <ImageView id="image3" fx:id="image3" fitHeight="411.0" fitWidth="421.0" layoutX="1576.0" layoutY="211.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Images/1%20PRODUCT.png" />
+         </image>
+      </ImageView>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="592.0" layoutX="1328.0" layoutY="126.0" stroke="#ffffff00" strokeType="INSIDE" width="71.0" />
+      <Button fx:id="homebutton" layoutX="334.0" layoutY="45.0" mnemonicParsing="false" prefHeight="35.0" prefWidth="117.0" style="-fx-background-color: #ffffff;" styleClass="hoverstyle" stylesheets="@hoverstyle.css" text="Home" textAlignment="CENTER" textFill="#1b0e70">
+         <font>
+            <Font name="Arial Black" size="23.29" />
+         </font>
+      </Button>
+      <Button fx:id="blogsbutton1" layoutX="674.0" layoutY="45.0" mnemonicParsing="false" onAction="#gotoBlog" prefHeight="35.0" prefWidth="132.0" style="-fx-background-color: #ffffff;" styleClass="hoverstyle" stylesheets="@hoverstyle.css" text="Blogs" textFill="#e69dda">
+         <font>
+            <Font name="Arial Black" size="23.29" />
+         </font>
+      </Button>
+      <Button fx:id="aboutbutton" layoutX="502.0" layoutY="45.0" mnemonicParsing="false" onAction="#gotoAbout" prefHeight="35.0" prefWidth="117.0" style="-fx-background-color: #ffffff;" styleClass="hoverstyle" stylesheets="@hoverstyle.css" text="About" textFill="#e69dda">
+         <font>
+            <Font name="Arial Black" size="23.29" />
+         </font>
+      </Button>
+      <Button fx:id="shopbutton" layoutX="847.0" layoutY="45.0" mnemonicParsing="false" onAction="#gotoShop" prefHeight="35.0" prefWidth="107.0" style="-fx-background-color: #ffffff;" styleClass="hoverstyle" stylesheets="@hoverstyle.css" text="Shop" textFill="#e69dda">
+         <font>
+            <Font name="Arial Black" size="23.29" />
+         </font>
+      </Button>
+      <Button fx:id="profilebtn" layoutX="1228.0" layoutY="53.0" mnemonicParsing="false" onAction="#gotoProfile" opacity="0.0" prefHeight="32.0" prefWidth="33.0" text="Profile" />
+      <Button fx:id="signoutbtn" layoutX="1295.0" layoutY="50.0" mnemonicParsing="false" onAction="#gotoLogin" opacity="0.0" prefHeight="30.0" prefWidth="33.0" text="Signout" />
+      <Button fx:id="shopnowbutton" layoutX="124.0" layoutY="593.0" mnemonicParsing="false" onAction="#gotoShop" opacity="0.0" prefHeight="75.0" prefWidth="342.0" text="gotoShop" />
+   </children>
+</Pane>

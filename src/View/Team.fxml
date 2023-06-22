@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.effect.DropShadow?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.paint.Color?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="786.05" prefWidth="1397.42" style="-fx-background-color: #ffffff;" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller.TeamController">
+   <children>
+      <ImageView fitHeight="671.0" fitWidth="1263.0" layoutX="75.0" layoutY="57.0">
+         <image>
+            <Image url="@../Images/bg.png" />
+         </image>
+      </ImageView>
+      <Rectangle arcHeight="30.0" arcWidth="30.0" fill="WHITE" height="568.0" layoutX="138.0" layoutY="115.0" stroke="WHITE" strokeLineCap="ROUND" strokeType="INSIDE" width="1147.0">
+         <effect>
+            <DropShadow height="1.14" offsetX="-1.0" offsetY="2.0" radius="0.0" spread="1.0" width="0.0">
+               <color>
+                  <Color red="0.46000000834465027" green="0.4415999948978424" blue="0.4415999948978424" opacity="0.3607598841190338" />
+               </color>
+            </DropShadow>
+         </effect>
+      </Rectangle>
+      <Rectangle arcHeight="30.0" arcWidth="30.0" fill="#1b0e70" height="325.0" layoutX="161.0" layoutY="295.0" stroke="WHITE" strokeLineCap="ROUND" strokeType="INSIDE" width="259.0">
+         <effect>
+            <DropShadow height="1.14" offsetX="-1.0" offsetY="2.0" radius="0.0" spread="1.0" width="0.0">
+               <color>
+                  <Color red="0.46000000834465027" green="0.4415999948978424" blue="0.4415999948978424" opacity="0.3607598841190338" />
+               </color>
+            </DropShadow>
+         </effect>
+      </Rectangle>
+      <Rectangle arcHeight="30.0" arcWidth="30.0" fill="#1b0e70" height="325.0" layoutX="444.0" layoutY="295.0" stroke="WHITE" strokeLineCap="ROUND" strokeType="INSIDE" width="259.0">
+         <effect>
+            <DropShadow height="1.14" offsetX="-1.0" offsetY="2.0" radius="0.0" spread="1.0" width="0.0">
+               <color>
+                  <Color red="0.46000000834465027" green="0.4415999948978424" blue="0.4415999948978424" opacity="0.3607598841190338" />
+               </color>
+            </DropShadow>
+         </effect>
+      </Rectangle>
+      <Rectangle arcHeight="30.0" arcWidth="30.0" fill="#1b0e70" height="325.0" layoutX="722.0" layoutY="295.0" stroke="WHITE" strokeLineCap="ROUND" strokeType="INSIDE" width="259.0">
+         <effect>
+            <DropShadow height="1.14" offsetX="-1.0" offsetY="2.0" radius="0.0" spread="1.0" width="0.0">
+               <color>
+                  <Color red="0.46000000834465027" green="0.4415999948978424" blue="0.4415999948978424" opacity="0.3607598841190338" />
+               </color>
+            </DropShadow>
+         </effect>
+      </Rectangle>
+      <Rectangle arcHeight="30.0" arcWidth="30.0" fill="#1b0e70" height="325.0" layoutX="1000.0" layoutY="295.0" stroke="WHITE" strokeLineCap="ROUND" strokeType="INSIDE" width="259.0">
+         <effect>
+            <DropShadow height="1.14" offsetX="-1.0" offsetY="2.0" radius="0.0" spread="1.0" width="0.0">
+               <color>
+                  <Color red="0.46000000834465027" green="0.4415999948978424" blue="0.4415999948978424" opacity="0.3607598841190338" />
+               </color>
+            </DropShadow>
+         </effect>
+      </Rectangle>
+      <Label layoutX="169.0" layoutY="157.0" text="Introducing the Pawesome Paw Team!" textFill="#1b0e70">
+         <font>
+            <Font name="Arial Black" size="27.0" />
+         </font>
+      </Label>
+      <Label layoutX="171.0" layoutY="203.0" prefHeight="22.0" prefWidth="698.0" text="With passion in our hearts and a deep understanding of the profound bond between humans and their furry " textFill="#1b0e70">
+         <font>
+            <Font name="Arial" size="13.0" />
+         </font>
+      </Label>
+      <Label layoutX="171.0" layoutY="221.0" prefHeight="22.0" prefWidth="682.0" text="companions, we dedicate ourselves to turning dreams into reality. Step into our world, and together, we'll create " textFill="#1b0e70">
+         <font>
+            <Font name="Arial" size="13.0" />
+         </font>
+      </Label>
+      <Label layoutX="171.0" layoutY="238.0" prefHeight="22.0" prefWidth="616.0" text="a tapestry of extraordinary moments, where pets and their dreams unite in perfect harmony." textFill="#1b0e70">
+         <font>
+            <Font name="Arial" size="13.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="122.0" fitWidth="110.0" layoutX="1131.0" layoutY="148.0">
+         <image>
+            <Image url="@../Images/logo.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="200.0" fitWidth="141.0" layoutX="496.0" layoutY="297.0">
+         <image>
+            <Image url="@../Images/profile4.png" />
+         </image>
+         <effect>
+            <DropShadow height="14.04" offsetX="2.0" offsetY="2.0" radius="7.09" width="16.32">
+               <color>
+                  <Color red="1.0" green="1.0" blue="1.0" />
+               </color>
+            </DropShadow>
+         </effect>
+      </ImageView>
+      <ImageView fitHeight="200.0" fitWidth="141.0" layoutX="1055.0" layoutY="297.0">
+         <image>
+            <Image url="@../Images/profile1.png" />
+         </image>
+         <effect>
+            <DropShadow height="14.04" offsetX="2.0" offsetY="2.0" radius="7.09" width="16.32">
+               <color>
+                  <Color red="1.0" green="1.0" blue="1.0" />
+               </color>
+            </DropShadow>
+         </effect>
+      </ImageView>
+      <ImageView fitHeight="200.0" fitWidth="141.0" layoutX="781.0" layoutY="297.0">
+         <image>
+            <Image url="@../Images/profile2.png" />
+         </image>
+         <effect>
+            <DropShadow height="14.04" offsetX="2.0" offsetY="2.0" radius="7.09" width="16.32">
+               <color>
+                  <Color red="1.0" green="1.0" blue="1.0" />
+               </color>
+            </DropShadow>
+         </effect>
+      </ImageView>
+      <ImageView fitHeight="200.0" fitWidth="141.0" layoutX="216.0" layoutY="297.0">
+         <image>
+            <Image url="@../Images/profile3.png" />
+         </image>
+         <effect>
+            <DropShadow height="14.04" offsetX="2.0" offsetY="2.0" radius="7.09" width="16.32">
+               <color>
+                  <Color red="1.0" green="1.0" blue="1.0" />
+               </color>
+            </DropShadow>
+         </effect>
+      </ImageView>
+      <Label layoutX="194.0" layoutY="468.0" prefHeight="40.0" prefWidth="198.0" text="Michaela Cailing" textFill="WHITE">
+         <font>
+            <Font name="Arial Black" size="21.0" />
+         </font>
+      </Label>
+      <Label layoutX="209.0" layoutY="490.0" prefHeight="40.0" prefWidth="168.0" text="&quot;The Whisker Wizard&quot;" textFill="WHITE">
+         <font>
+            <Font name="Arial" size="16.0" />
+         </font>
+      </Label>
+      <Label layoutX="209.0" layoutY="530.0" prefHeight="40.0" prefWidth="168.0" textFill="WHITE">
+         <font>
+            <Font name="Arial" size="16.0" />
+         </font>
+      </Label>
+      <Label layoutX="194.0" layoutY="523.0" prefHeight="40.0" prefWidth="198.0" text="cailingme@students.national-u.edu.ph" textFill="WHITE">
+         <font>
+            <Font name="Arial" size="11.0" />
+         </font>
+      </Label>
+      <Label layoutX="234.0" layoutY="542.0" prefHeight="40.0" prefWidth="124.0" text="BS Computer Science " textFill="WHITE">
+         <font>
+            <Font name="Arial" size="11.0" />
+         </font>
+      </Label>
+      <Label layoutX="478.0" layoutY="467.0" prefHeight="40.0" prefWidth="198.0" text="Danyssa Tamayo" textFill="WHITE">
+         <font>
+            <Font name="Arial Black" size="21.0" />
+         </font>
+      </Label>
+      <Label layoutX="481.0" layoutY="489.0" prefHeight="40.0" prefWidth="203.0" text="&quot;The Cuddle Connoisseur&quot;" textFill="WHITE">
+         <font>
+            <Font name="Arial" size="16.0" />
+         </font>
+      </Label>
+      <Label layoutX="478.0" layoutY="522.0" prefHeight="40.0" prefWidth="198.0" text="tamayodb@students.national-u.edu.ph" textFill="WHITE">
+         <font>
+            <Font name="Arial" size="11.0" />
+         </font>
+      </Label>
+      <Label layoutX="518.0" layoutY="541.0" prefHeight="40.0" prefWidth="124.0" text="BS Computer Science " textFill="WHITE">
+         <font>
+            <Font name="Arial" size="11.0" />
+         </font>
+      </Label>
+      <Label layoutX="751.0" layoutY="467.0" prefHeight="40.0" prefWidth="198.0" text="Christian Alberto" textFill="WHITE">
+         <font>
+            <Font name="Arial Black" size="21.0" />
+         </font>
+      </Label>
+      <Label layoutX="762.0" layoutY="489.0" prefHeight="40.0" prefWidth="177.0" text="&quot;The Snuggle Architect&quot;" textFill="WHITE">
+         <font>
+            <Font name="Arial" size="16.0" />
+         </font>
+      </Label>
+      <Label layoutX="756.0" layoutY="520.0" prefHeight="40.0" prefWidth="198.0" text="albertocq@students.national-u.edu.ph" textFill="WHITE">
+         <font>
+            <Font name="Arial" size="11.0" />
+         </font>
+      </Label>
+      <Label layoutX="791.0" layoutY="539.0" prefHeight="40.0" prefWidth="124.0" text="BS Computer Science " textFill="WHITE">
+         <font>
+            <Font name="Arial" size="11.0" />
+         </font>
+      </Label>
+      <Label layoutX="1042.0" layoutY="466.0" prefHeight="40.0" prefWidth="198.0" text="Ronald Centeno" textFill="WHITE">
+         <font>
+            <Font name="Arial Black" size="21.0" />
+         </font>
+      </Label>
+      <Label layoutX="1063.0" layoutY="488.0" prefHeight="40.0" prefWidth="148.0" text="&quot;The Biscuit Maker&quot;" textFill="WHITE">
+         <font>
+            <Font name="Arial" size="16.0" />
+         </font>
+      </Label>
+      <Label layoutX="1035.0" layoutY="519.0" prefHeight="40.0" prefWidth="198.0" text="centenorad@students.national-u.edu.ph" textFill="WHITE">
+         <font>
+            <Font name="Arial" size="11.0" />
+         </font>
+      </Label>
+      <Label layoutX="1074.0" layoutY="538.0" prefHeight="40.0" prefWidth="124.0" text="BS Computer Science " textFill="WHITE">
+         <font>
+            <Font name="Arial" size="11.0" />
+         </font>
+      </Label>
+   </children>
+</Pane>

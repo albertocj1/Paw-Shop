@@ -1,0 +1,447 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.String?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ChoiceBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.effect.DropShadow?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.paint.Color?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<Pane fx:id="yearChoiceBox" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="786.05" prefWidth="1397.42" style="-fx-background-color: #ffffff;" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller.Cart1of2Controller">
+   <children>
+      <ImageView fitHeight="671.0" fitWidth="1263.0" layoutX="75.0" layoutY="57.0">
+         <image>
+            <Image url="@../Images/bg.png" />
+         </image>
+      </ImageView>
+      <Rectangle arcHeight="30.0" arcWidth="30.0" fill="WHITE" height="503.0" layoutX="159.0" layoutY="142.0" stroke="WHITE" strokeLineCap="ROUND" strokeType="INSIDE" width="736.0">
+         <effect>
+            <DropShadow height="1.14" offsetX="-1.0" offsetY="2.0" radius="0.0" spread="1.0" width="0.0">
+               <color>
+                  <Color red="0.46000000834465027" green="0.4415999948978424" blue="0.4415999948978424" opacity="0.3607598841190338" />
+               </color>
+            </DropShadow>
+         </effect>
+      </Rectangle>
+      <Rectangle arcHeight="30.0" arcWidth="30.0" fill="#1b0e70" height="494.0" layoutX="911.0" layoutY="147.0" stroke="#ffffff00" strokeLineCap="ROUND" strokeType="INSIDE" width="345.0">
+         <effect>
+            <DropShadow height="2.28" offsetX="-1.0" offsetY="2.0" radius="0.06999999999999995" spread="0.11" width="0.0">
+               <color>
+                  <Color red="0.46315789222717285" green="0.4442884922027588" blue="0.4442884922027588" opacity="0.6100000143051147" />
+               </color>
+            </DropShadow>
+         </effect>
+      </Rectangle>
+      <Label layoutX="194.0" layoutY="158.0" text="Shopping Cart" textFill="#1b0e70">
+         <font>
+            <Font name="Arial Black" size="35.0" />
+         </font>
+      </Label>
+      <Label layoutX="196.0" layoutY="216.0" text="Product" textFill="#1b0e70">
+         <font>
+            <Font name="Arial" size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="591.0" layoutY="215.0" text="Quantity" textFill="#1b0e70">
+         <font>
+            <Font name="Arial" size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="784.0" layoutY="215.0" text="Price" textFill="#1b0e70">
+         <font>
+            <Font name="Arial" size="20.0" />
+         </font>
+      </Label>
+      <Line endX="561.0" endY="3.0517578125E-5" layoutX="312.0" layoutY="251.0" startX="-125.0" startY="3.0517578125E-5" stroke="#1b0e70" />
+      <Label layoutX="927.0" layoutY="188.0" text="Checkout: Step 1 of 2" textFill="WHITE">
+         <font>
+            <Font name="Arial" size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="923.0" layoutY="202.0" text="Shipping Info" textFill="WHITE">
+         <font>
+            <Font name="Arial Black" size="34.0" />
+         </font>
+      </Label>
+      <TextField fx:id="nameTF" layoutX="922.0" layoutY="270.0" prefHeight="31.0" prefWidth="309.0" promptText="Full Name" styleClass="textbutton" stylesheets="@profiletextfield.css">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="emailTF" layoutX="923.0" layoutY="322.0" prefHeight="31.0" prefWidth="309.0" promptText="E-mail" styleClass="textbutton" stylesheets="@profiletextfield.css">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="numberTF" layoutX="923.0" layoutY="372.0" prefHeight="31.0" prefWidth="309.0" promptText="Phone Number" styleClass="textbutton" stylesheets="@profiletextfield.css">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="streetTF" layoutX="923.0" layoutY="420.0" prefHeight="31.0" prefWidth="309.0" promptText="Street Address" styleClass="textbutton" stylesheets="@profiletextfield.css">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </TextField>
+      <ChoiceBox fx:id="districtchoices" layoutX="1065.0" layoutY="472.0" minHeight="-Infinity" minWidth="-Infinity" prefHeight="31.0" prefWidth="165.0" style="-fx-background-color: #ffffff;" />
+      <TextField fx:id="zipTF" layoutX="922.0" layoutY="471.0" prefHeight="31.0" prefWidth="135.0" promptText="ZIP Code" styleClass="textbutton" stylesheets="@profiletextfield.css">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </TextField>
+      <ImageView fitHeight="40.0" fitWidth="310.0" layoutX="927.0" layoutY="576.0">
+         <image>
+            <Image url="@../Images/continuepaymentbutton.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="31.0" fitWidth="25.0" layoutX="1180.0" layoutY="580.0" rotate="180.0">
+         <image>
+            <Image url="@../Images/backbutton.png" />
+         </image>
+      </ImageView>
+      <Label layoutX="980.0" layoutY="582.0" text="Continue to Payment" textFill="WHITE">
+         <font>
+            <Font name="Arial Black" size="17.0" />
+         </font>
+      </Label>
+      <Button layoutX="1306.0" layoutY="21.0" mnemonicParsing="false" onAction="#gotoLogin" opacity="0.0" prefHeight="30.0" prefWidth="33.0" text="Signout" />
+      <Label fx:id="totall" layoutX="776.0" layoutY="538.0" prefHeight="19.0" prefWidth="91.0" text="0.0" textFill="#1b0e70">
+         <font>
+            <Font name="Arial Bold" size="17.0" />
+         </font>
+      </Label>
+      <Text fill="#1b0e70" layoutX="659.0" layoutY="553.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Subtotal:">
+         <font>
+            <Font name="Arial Bold" size="17.0" />
+         </font>
+      </Text>
+      <Label layoutX="760.0" layoutY="538.0" text="₱" textFill="#1b0e70">
+         <font>
+            <Font name="Arial Bold" size="17.0" />
+         </font>
+      </Label>
+      <Label fx:id="totalwithshipping" layoutX="778.0" layoutY="586.0" prefHeight="19.0" prefWidth="101.0" text="0.0" textFill="#1b0e70">
+         <font>
+            <Font name="Arial Bold" size="17.0" />
+         </font>
+      </Label>
+      <Text fill="#1b0e70" layoutX="669.0" layoutY="601.0" strokeType="OUTSIDE" strokeWidth="0.0" text="TOTAL:">
+         <font>
+            <Font name="Arial Bold" size="17.0" />
+         </font>
+      </Text>
+      <Label layoutX="760.0" layoutY="586.0" text="₱" textFill="#1b0e70">
+         <font>
+            <Font name="Arial Bold" size="17.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="38.57" fitWidth="39.3" layoutX="473.0" layoutY="163.0">
+         <image>
+            <Image url="@../Images/cart.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="87.0" fitWidth="113.0" layoutX="185.0" layoutY="535.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Images/logo.png" />
+         </image>
+      </ImageView>
+      <ScrollPane hbarPolicy="NEVER" layoutX="182.0" layoutY="259.0" prefHeight="268.0" prefWidth="699.0" stylesheets="@scrollpane.css" vbarPolicy="ALWAYS">
+         <content>
+            <VBox fx:id="myvbox" prefHeight="774.0" prefWidth="693.0">
+               <children>
+                  <Pane fx:id="pane1" prefHeight="92.0" prefWidth="200.0">
+                     <children>
+                        <ImageView fitHeight="76.0" fitWidth="74.0" layoutX="3.0" layoutY="3.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../Images/C1.%20PRODUCT.png" />
+                           </image>
+                        </ImageView>
+                        <Line endX="585.0" layoutX="102.0" layoutY="80.0" startX="-99.0" stroke="#1b0e70" />
+                        <Label fx:id="namec1" layoutX="82.0" layoutY="25.0" text="Whiskas Junior Ocean Fish" textFill="#1b0e70">
+                           <font>
+                              <Font name="Arial" size="20.0" />
+                           </font>
+                        </Label>
+                        <ChoiceBox fx:id="choicebox1" layoutX="407.0" layoutY="19.0" prefHeight="36.0" prefWidth="78.0" style="-fx-background-color: #ffffff; -fx-border-color: #524992; -fx-border-radius: 10;" />
+                        <Label fx:id="finalpricec1" layoutX="602.0" layoutY="25.0" text="349.0" textFill="#1b0e70">
+                           <font>
+                              <Font name="Arial" size="20.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="576.0" layoutY="25.0" text="₱" textFill="#1b0e70">
+                           <font>
+                              <Font name="Arial" size="20.0" />
+                           </font>
+                        </Label>
+                     </children>
+                  </Pane>
+                  <Pane fx:id="pane2" prefHeight="92.0" prefWidth="200.0">
+                     <children>
+                        <ImageView fitHeight="80.0" fitWidth="80.0" layoutX="1.0" layoutY="3.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../Images/C2.%20PRODUCT.png" />
+                           </image>
+                        </ImageView>
+                        <Line endX="585.0" layoutX="102.0" layoutY="89.0" startX="-99.0" stroke="#1b0e70" />
+                        <Label fx:id="namec2" layoutX="79.0" layoutY="29.0" text="SmartHeart Adult Chicken" textFill="#1b0e70">
+                           <font>
+                              <Font name="Arial" size="20.0" />
+                           </font>
+                        </Label>
+                        <ChoiceBox fx:id="choicebox2" layoutX="407.0" layoutY="22.0" prefHeight="36.0" prefWidth="78.0" style="-fx-background-color: #ffffff; -fx-border-radius: 10; -fx-border-color: #524992;" />
+                        <Label fx:id="finalpricec2" layoutX="602.0" layoutY="29.0" text="299.0" textFill="#1b0e70">
+                           <font>
+                              <Font name="Arial" size="20.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="576.0" layoutY="29.0" text="₱" textFill="#1b0e70">
+                           <font>
+                              <Font name="Arial" size="20.0" />
+                           </font>
+                        </Label>
+                     </children>
+                  </Pane>
+                  <Pane fx:id="pane3" prefHeight="92.0" prefWidth="200.0">
+                     <children>
+                        <ImageView fitHeight="80.0" fitWidth="76.0" layoutX="1.0" layoutY="9.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../Images/C3.%20PRODUCT.png" />
+                           </image>
+                        </ImageView>
+                        <Line endX="585.0" layoutX="102.0" layoutY="91.0" startX="-99.0" stroke="#1b0e70" />
+                        <Label fx:id="namec3" layoutX="78.0" layoutY="35.0" text="Ciao Jelly Tuna with Cuttle" textFill="#1b0e70">
+                           <font>
+                              <Font name="Arial" size="20.0" />
+                           </font>
+                        </Label>
+                        <ChoiceBox fx:id="choicebox3" layoutX="407.0" layoutY="27.0" prefHeight="36.0" prefWidth="78.0" style="-fx-background-color: #ffffff; -fx-border-color: #524992; -fx-border-radius: 10;" />
+                        <Label fx:id="finalpricec3" layoutX="602.0" layoutY="35.0" text="100.0" textFill="#1b0e70">
+                           <font>
+                              <Font name="Arial" size="20.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="576.0" layoutY="35.0" text="₱" textFill="#1b0e70">
+                           <font>
+                              <Font name="Arial" size="20.0" />
+                           </font>
+                        </Label>
+                     </children>
+                  </Pane>
+                  <Pane fx:id="pane4" prefHeight="92.0" prefWidth="200.0">
+                     <children>
+                        <ImageView fitHeight="76.0" fitWidth="74.0" layoutX="-1.0" layoutY="13.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../Images/1%20PRODUCT.png" />
+                           </image>
+                        </ImageView>
+                        <Line endX="585.0" layoutX="102.0" layoutY="91.0" startX="-99.0" stroke="#1b0e70" />
+                        <Label fx:id="named1" layoutX="73.0" layoutY="39.0" text="Pedigree Grilled Steak and" textFill="#1b0e70">
+                           <font>
+                              <Font name="Arial" size="20.0" />
+                           </font>
+                        </Label>
+                        <ChoiceBox fx:id="choicebox4" layoutX="407.0" layoutY="29.0" prefHeight="36.0" prefWidth="78.0" style="-fx-background-color: #ffffff; -fx-border-color: #524992; -fx-border-radius: 10;" />
+                        <Label fx:id="finalpriced1" layoutX="602.0" layoutY="38.0" text="1518.0" textFill="#1b0e70">
+                           <font>
+                              <Font name="Arial" size="20.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="576.0" layoutY="37.0" text="₱" textFill="#1b0e70">
+                           <font>
+                              <Font name="Arial" size="20.0" />
+                           </font>
+                        </Label>
+                     </children>
+                  </Pane>
+                  <Pane fx:id="pane5" prefHeight="92.0" prefWidth="200.0">
+                     <children>
+                        <ImageView fitHeight="80.0" fitWidth="80.0" layoutX="-7.0" layoutY="10.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../Images/2%20PRODUCT.png" />
+                           </image>
+                        </ImageView>
+                        <Line endX="585.0" layoutX="102.0" layoutY="91.0" startX="-99.0" stroke="#1b0e70" />
+                        <Label fx:id="named2" layoutX="73.0" layoutY="37.0" text="Bil-Jac Picky No More" textFill="#1b0e70">
+                           <font>
+                              <Font name="Arial" size="20.0" />
+                           </font>
+                        </Label>
+                        <ChoiceBox fx:id="choicebox5" layoutX="407.0" layoutY="30.0" prefHeight="36.0" prefWidth="78.0" style="-fx-background-color: #ffffff; -fx-border-color: #524992; -fx-border-radius: 10;" />
+                        <Label fx:id="finalpriced2" layoutX="602.0" layoutY="37.0" text="1200.0" textFill="#1b0e70">
+                           <font>
+                              <Font name="Arial" size="20.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="576.0" layoutY="37.0" text="₱" textFill="#1b0e70">
+                           <font>
+                              <Font name="Arial" size="20.0" />
+                           </font>
+                        </Label>
+                     </children>
+                  </Pane>
+                  <Pane fx:id="pane6" prefHeight="92.0" prefWidth="200.0">
+                     <children>
+                        <ImageView fitHeight="74.0" fitWidth="70.0" layoutY="12.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../Images/3%20PRODUCT.png" />
+                           </image>
+                        </ImageView>
+                        <Line endX="585.0" layoutX="102.0" layoutY="92.0" startX="-99.0" stroke="#1b0e70" />
+                        <Label fx:id="named3" layoutX="70.0" layoutY="39.0" text="CESAR Simply Crafted " textFill="#1b0e70">
+                           <font>
+                              <Font name="Arial" size="20.0" />
+                           </font>
+                        </Label>
+                        <ChoiceBox fx:id="choicebox6" layoutX="407.0" layoutY="32.0" prefHeight="36.0" prefWidth="78.0" style="-fx-background-color: #ffffff; -fx-border-color: #524992; -fx-border-radius: 10;" />
+                        <Label fx:id="finalpriced3" layoutX="602.0" layoutY="39.0" text="437.0" textFill="#1b0e70">
+                           <font>
+                              <Font name="Arial" size="20.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="575.0" layoutY="39.0" text="₱" textFill="#1b0e70">
+                           <font>
+                              <Font name="Arial" size="20.0" />
+                           </font>
+                        </Label>
+                     </children>
+                  </Pane>
+                  <Pane fx:id="pane7" prefHeight="92.0" prefWidth="200.0">
+                     <children>
+                        <ImageView fitHeight="83.0" fitWidth="76.0" layoutX="-2.0" layoutY="10.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../Images/S1.%20PRODUCT.png" />
+                           </image>
+                        </ImageView>
+                        <Line endX="585.0" layoutX="102.0" layoutY="90.0" startX="-99.0" stroke="#1b0e70" />
+                        <Label fx:id="names1" layoutX="74.0" layoutY="37.0" text="HOPERAN Wooden Hamster" textFill="#1b0e70">
+                           <font>
+                              <Font name="Arial" size="20.0" />
+                           </font>
+                        </Label>
+                        <ChoiceBox fx:id="choicebox7" layoutX="407.0" layoutY="30.0" prefHeight="36.0" prefWidth="78.0" style="-fx-background-color: #ffffff; -fx-border-color: #524992; -fx-border-radius: 10;" />
+                        <Label fx:id="finalprices1" layoutX="602.0" layoutY="37.0" text="13859.0" textFill="#1b0e70">
+                           <font>
+                              <Font name="Arial" size="20.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="575.0" layoutY="37.0" text="₱" textFill="#1b0e70">
+                           <font>
+                              <Font name="Arial" size="20.0" />
+                           </font>
+                        </Label>
+                     </children>
+                  </Pane>
+                  <Pane fx:id="pane8" prefHeight="92.0" prefWidth="687.0">
+                     <children>
+                        <ImageView fitHeight="74.0" fitWidth="74.0" layoutX="-1.0" layoutY="11.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../Images/S2.%20PRODUCT.png" />
+                           </image>
+                        </ImageView>
+                        <Line endX="585.0" layoutX="102.0" layoutY="91.0" startX="-99.0" stroke="#1b0e70" />
+                        <Label fx:id="names2" layoutX="73.0" layoutY="37.0" text="Vitakraft Small Animal " textFill="#1b0e70">
+                           <font>
+                              <Font name="Arial" size="20.0" />
+                           </font>
+                        </Label>
+                        <ChoiceBox fx:id="choicebox8" layoutX="407.0" layoutY="30.0" prefHeight="36.0" prefWidth="78.0" style="-fx-background-color: #ffffff; -fx-border-color: #524992; -fx-border-radius: 10;" />
+                        <Label fx:id="finalprices2" layoutX="601.0" layoutY="36.0" text="1374.0" textFill="#1b0e70">
+                           <font>
+                              <Font name="Arial" size="20.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="575.0" layoutY="36.0" text="₱" textFill="#1b0e70">
+                           <font>
+                              <Font name="Arial" size="20.0" />
+                           </font>
+                        </Label>
+                     </children>
+                  </Pane>
+                  <Pane fx:id="pane9" prefHeight="114.0" prefWidth="687.0">
+                     <children>
+                        <ImageView fitHeight="80.0" fitWidth="80.0" layoutX="-7.0" layoutY="9.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../Images/S3.1PRODUCTS.png" />
+                           </image>
+                        </ImageView>
+                        <Line endX="585.0" layoutX="102.0" layoutY="91.0" startX="-99.0" stroke="#1b0e70" />
+                        <Label fx:id="names3" layoutX="73.0" layoutY="37.0" text="Freshwater Aquarium Test" textFill="#1b0e70">
+                           <font>
+                              <Font name="Arial" size="20.0" />
+                           </font>
+                        </Label>
+                        <ChoiceBox fx:id="choicebox9" layoutX="407.0" layoutY="31.0" prefHeight="36.0" prefWidth="78.0" style="-fx-background-color: #ffffff; -fx-border-color: #524992; -fx-border-radius: 10;" />
+                        <Label fx:id="finalprices3" layoutX="600.0" layoutY="37.0" text="1294.0" textFill="#1b0e70">
+                           <font>
+                              <Font name="Arial" size="20.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="574.0" layoutY="37.0" text="₱" textFill="#1b0e70">
+                           <font>
+                              <Font name="Arial" size="20.0" />
+                           </font>
+                        </Label>
+                     </children>
+                  </Pane>
+               </children>
+            </VBox>
+         </content>
+         <styleClass>
+            <String fx:value="scroll-bar" />
+            <String fx:value="scroll-pane" />
+         </styleClass>
+      </ScrollPane>
+      <Label fx:id="shippinglabel" layoutX="795.0" layoutY="560.0" text="38.0" textFill="#1b0e70" visible="false">
+         <font>
+            <Font name="Arial Bold" size="17.0" />
+         </font>
+      </Label>
+      <Text fill="#1b0e70" layoutX="654.0" layoutY="575.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Shipping:">
+         <font>
+            <Font name="Arial Bold" size="17.0" />
+         </font>
+      </Text>
+      <Label layoutX="760.0" layoutY="560.0" text="₱" textFill="#1b0e70">
+         <font>
+            <Font name="Arial Bold" size="17.0" />
+         </font>
+      </Label>
+      <Line endX="869.5999755859375" endY="624.2666625976562" fill="#1b0e70" layoutX="-3.0" layoutY="-43.0" startX="642.9332885742188" startY="624.2666625976562" stroke="#1b0e70" />
+      <Button fx:id="gotoCart2" layoutX="926.0" layoutY="574.0" mnemonicParsing="false" onAction="#gotoCart2of2" opacity="0.0" prefHeight="45.0" prefWidth="312.0" text="gotoCart2of2" />
+      <Label fx:id="mywarninglabel1" layoutX="926.0" layoutY="353.0" prefHeight="17.0" prefWidth="305.0" text="email validation" textFill="WHITE" visible="false">
+         <font>
+            <Font size="9.0" />
+         </font>
+      </Label>
+      <Label fx:id="mywarninglabel2" layoutX="927.0" layoutY="402.0" prefHeight="17.0" prefWidth="305.0" text="number validation" textFill="WHITE" visible="false">
+         <font>
+            <Font size="9.0" />
+         </font>
+      </Label>
+      <Label fx:id="mywarninglabel3" layoutX="926.0" layoutY="451.0" prefHeight="17.0" prefWidth="305.0" text="street validation" textFill="WHITE" visible="false">
+         <font>
+            <Font size="9.0" />
+         </font>
+      </Label>
+      <Label fx:id="mywarninglabel4" layoutX="925.0" layoutY="501.0" prefHeight="17.0" prefWidth="305.0" text="zip validation" textFill="WHITE" visible="false">
+         <font>
+            <Font size="9.0" />
+         </font>
+      </Label>
+      <Label fx:id="mywarninglabel0" layoutX="924.0" layoutY="302.0" prefHeight="17.0" prefWidth="305.0" text="name validation" textFill="WHITE" visible="false">
+         <font>
+            <Font size="9.0" />
+         </font>
+      </Label>
+   </children>
+</Pane>

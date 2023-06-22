@@ -1,0 +1,910 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.effect.DropShadow?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.StackPane?>
+<?import javafx.scene.paint.Color?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="786.05" prefWidth="1397.42" style="-fx-background-color: #ffffff;" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller.ShopController">
+   <children>
+      <ImageView fitHeight="592.45" fitWidth="1281.0" layoutX="70.0" layoutY="143.0">
+         <image>
+            <Image url="@../Images/bg.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="140.97" fitWidth="138.29" layoutX="75.5" layoutY="10.0">
+         <image>
+            <Image url="@../Images/logo.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="38.57" fitWidth="39.3" layoutX="1244.0" layoutY="51.0">
+         <image>
+            <Image url="@../Images/cart.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="48.0" fitWidth="186.0" layoutX="127.0" layoutY="156.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Images/white%20txtbg%20(2).png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="48.0" fitWidth="871.0" layoutX="379.0" layoutY="157.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Images/white%20txtbg%20(1).png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="27.0" fitWidth="26.0" layoutX="394.0" layoutY="162.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Images/pawprint%202.png" />
+         </image>
+      </ImageView>
+      <Text fill="#1b0e70" layoutX="144.0" layoutY="184.0" strokeType="OUTSIDE" strokeWidth="0.0" text="CATEGORIES">
+         <font>
+            <Font name="Arial Black" size="21.0" />
+         </font>
+      </Text>
+      <Text fill="#1b0e70" layoutX="431.0" layoutY="183.0" strokeType="OUTSIDE" strokeWidth="0.0" text="ALL PRODUCTS">
+         <font>
+            <Font name="Arial Black" size="21.0" />
+         </font>
+      </Text>
+      <Label layoutX="187.0" layoutY="623.0" text="Pet" textFill="#1b0e70">
+         <font>
+            <Font name="Arial Black" size="20.0" />
+         </font>
+      </Label>
+      <Button fx:id="shopbutton" layoutX="394.0" layoutY="63.0" mnemonicParsing="false" prefHeight="35.0" prefWidth="258.0" style="-fx-background-color: #ffffff;" styleClass="hoverstyle" stylesheets="@hoverstyle.css" text="Shop now at Paw!" textFill="#1b0e70">
+         <font>
+            <Font name="Arial Black" size="23.29" />
+         </font>
+      </Button>
+      <Button fx:id="cartbtn" layoutX="1247.0" layoutY="59.0" mnemonicParsing="false" onAction="#gotoCart" opacity="0.0" prefHeight="30.0" prefWidth="33.0" text="Cart" />
+      <StackPane fx:id="stackPane" layoutX="297.0" layoutY="197.0" minHeight="-Infinity" minWidth="-Infinity" prefHeight="525.0" prefWidth="1024.0">
+         <children>
+            <AnchorPane fx:id="anchorPane2" prefHeight="466.0" prefWidth="1024.0" visible="false">
+               <children>
+                  <Pane layoutX="35.0" layoutY="11.0" prefHeight="246.0" prefWidth="306.0">
+                     <children>
+                        <Rectangle arcHeight="35.0" arcWidth="35.0" fill="WHITE" height="211.0" layoutX="54.0" layoutY="17.0" stroke="#ffffff00" strokeLineCap="ROUND" strokeType="INSIDE" width="205.0">
+                           <effect>
+                              <DropShadow offsetY="2.0" spread="0.11">
+                                 <color>
+                                    <Color opacity="0.6139817833900452" />
+                                 </color>
+                              </DropShadow>
+                           </effect>
+                        </Rectangle>
+                        <Rectangle arcHeight="30.0" arcWidth="30.0" fill="#e4ade1" height="150.0" layoutX="54.0" layoutY="17.0" stroke="#e4ade1" strokeLineCap="ROUND" strokeType="INSIDE" width="205.0" />
+                        <ImageView fitHeight="185.0" fitWidth="176.0" layoutX="71.0" layoutY="2.0">
+                           <image>
+                              <Image url="@../Images/S1.%20PRODUCT.png" />
+                           </image>
+                        </ImageView>
+                        <Label fx:id="names1" layoutX="67.0" layoutY="169.0" prefHeight="13.0" prefWidth="182.0" text="Pedigree Grilled Steak and" textFill="#190e6e">
+                           <font>
+                              <Font name="Arial Black" size="10.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="65.0" layoutY="182.0" prefHeight="15.0" prefWidth="156.0" text="Cage with Cage Door" textFill="#190e6e">
+                           <font>
+                              <Font name="Arial Black" size="10.0" />
+                           </font>
+                        </Label>
+                        <ImageView fitHeight="37.0" fitWidth="45.0" layoutX="66.0" layoutY="183.0">
+                           <image>
+                              <Image url="@../Images/rating.png" />
+                           </image>
+                        </ImageView>
+                        <Label layoutX="65.0" layoutY="204.0" prefHeight="15.0" prefWidth="72.0" text="PHP" textFill="#ff740a">
+                           <font>
+                              <Font name="Arial Black" size="12.0" />
+                           </font>
+                        </Label>
+                        <Label fx:id="prices1" layoutX="99.0" layoutY="203.0" prefHeight="20.0" prefWidth="61.0" text="1200.0" textFill="#ff740a">
+                           <font>
+                              <Font name="Arial Black" size="12.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="198.0" layoutY="207.0" prefHeight="9.0" prefWidth="66.0" text="See Details" textFill="#190e6e">
+                           <font>
+                              <Font name="Arial" size="10.0" />
+                           </font>
+                        </Label>
+                        <Button fx:id="smallpetprod1" layoutX="51.0" layoutY="163.0" mnemonicParsing="false" onAction="#gotoSmallPetProd1" opacity="0.0" prefHeight="65.0" prefWidth="208.0" text="gotoDogProd1" />
+                        <Button fx:id="s1button" layoutX="54.0" layoutY="17.0" mnemonicParsing="false" opacity="0.0" prefHeight="149.0" prefWidth="205.0" text="hover" />
+                        <Pane fx:id="s1paneCart" layoutX="52.0" layoutY="14.0" prefHeight="224.0" prefWidth="207.0" visible="false">
+                           <children>
+                              <Rectangle arcHeight="35.0" arcWidth="35.0" height="212.0" layoutX="2.0" layoutY="2.0" opacity="0.47" stroke="#ffffff00" strokeLineCap="ROUND" strokeType="INSIDE" width="205.0">
+                                 <effect>
+                                    <DropShadow offsetY="2.0" spread="0.11">
+                                       <color>
+                                          <Color opacity="0.6139817833900452" />
+                                       </color>
+                                    </DropShadow>
+                                 </effect>
+                              </Rectangle>
+                              <ImageView fitHeight="39.0" fitWidth="144.0" layoutX="36.0" layoutY="74.0">
+                                 <image>
+                                    <Image url="@../Images/buttonhome.png" />
+                                 </image>
+                                 <effect>
+                                    <DropShadow offsetY="2.0">
+                                       <color>
+                                          <Color red="0.4842105209827423" green="0.4752436578273773" blue="0.4752436578273773" />
+                                       </color>
+                                    </DropShadow>
+                                 </effect>
+                              </ImageView>
+                              <Label layoutX="55.0" layoutY="75.0" prefHeight="34.0" prefWidth="109.0" text="Add to cart " textFill="WHITE">
+                                 <font>
+                                    <Font name="Arial Black" size="16.0" />
+                                 </font>
+                              </Label>
+                              <Button fx:id="addcartbtn7" layoutX="30.0" layoutY="74.0" mnemonicParsing="false" onAction="#buy" opacity="0.0" prefHeight="40.0" prefWidth="151.0" text="addToCart" />
+                           </children>
+                        </Pane>
+                     </children>
+                  </Pane>
+                  <Pane layoutX="385.0" layoutY="12.0" prefHeight="252.0" prefWidth="283.0">
+                     <children>
+                        <Rectangle arcHeight="35.0" arcWidth="35.0" fill="WHITE" height="211.0" layoutX="31.0" layoutY="17.0" stroke="#ffffff00" strokeLineCap="ROUND" strokeType="INSIDE" width="205.0">
+                           <effect>
+                              <DropShadow offsetY="2.0" spread="0.11">
+                                 <color>
+                                    <Color opacity="0.6139817833900452" />
+                                 </color>
+                              </DropShadow>
+                           </effect>
+                        </Rectangle>
+                        <Rectangle arcHeight="30.0" arcWidth="30.0" fill="#e4ade1" height="150.0" layoutX="31.0" layoutY="17.0" stroke="#e4ade1" strokeLineCap="ROUND" strokeType="INSIDE" width="205.0" />
+                        <ImageView fx:id="imageView121" fitHeight="142.0" fitWidth="131.0" layoutX="71.0" layoutY="21.0">
+                           <image>
+                              <Image url="@../Images/S2.%20PRODUCT.png" />
+                           </image>
+                        </ImageView>
+                        <Label fx:id="names2" layoutX="45.0" layoutY="171.0" prefHeight="13.0" prefWidth="182.0" text="Bil-Jac Picky No More" textFill="#190e6e">
+                           <font>
+                              <Font name="Arial Black" size="10.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="45.0" layoutY="184.0" prefHeight="15.0" prefWidth="156.0" text="Timothy Hay for Guinea Pig" textFill="#190e6e">
+                           <font>
+                              <Font name="Arial Black" size="10.0" />
+                           </font>
+                        </Label>
+                        <ImageView fitHeight="37.0" fitWidth="45.0" layoutX="45.0" layoutY="186.0">
+                           <image>
+                              <Image url="@../Images/rating.png" />
+                           </image>
+                        </ImageView>
+                        <Label fx:id="prices2" layoutX="76.0" layoutY="205.0" prefHeight="20.0" prefWidth="48.0" text="1200.0" textFill="#ff740a">
+                           <font>
+                              <Font name="Arial Black" size="12.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="44.0" layoutY="206.0" prefHeight="15.0" prefWidth="30.0" text="PHP" textFill="#ff740a">
+                           <font>
+                              <Font name="Arial Black" size="12.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="173.0" layoutY="209.0" prefHeight="9.0" prefWidth="66.0" text="See Details" textFill="#190e6e">
+                           <font>
+                              <Font name="Arial" size="10.0" />
+                           </font>
+                        </Label>
+                        <Button fx:id="smallpetprod2" layoutX="31.0" layoutY="162.0" mnemonicParsing="false" onAction="#gotoSmallPetProd2" opacity="0.0" prefHeight="66.0" prefWidth="208.0" text="gotoDogProd1" />
+                        <Button fx:id="s3button" layoutX="31.0" layoutY="17.0" mnemonicParsing="false" opacity="0.0" prefHeight="149.0" prefWidth="205.0" text="hover" />
+                        <Pane fx:id="s3paneCart" layoutX="26.0" layoutY="15.0" prefHeight="224.0" prefWidth="207.0" visible="false">
+                           <children>
+                              <Rectangle arcHeight="35.0" arcWidth="35.0" height="212.0" layoutX="3.0" layoutY="1.0" opacity="0.47" stroke="#ffffff00" strokeLineCap="ROUND" strokeType="INSIDE" width="208.0">
+                                 <effect>
+                                    <DropShadow offsetY="2.0" spread="0.11">
+                                       <color>
+                                          <Color opacity="0.6139817833900452" />
+                                       </color>
+                                    </DropShadow>
+                                 </effect>
+                              </Rectangle>
+                              <ImageView fitHeight="39.0" fitWidth="144.0" layoutX="36.0" layoutY="74.0">
+                                 <image>
+                                    <Image url="@../Images/buttonhome.png" />
+                                 </image>
+                                 <effect>
+                                    <DropShadow offsetY="2.0">
+                                       <color>
+                                          <Color red="0.4842105209827423" green="0.4752436578273773" blue="0.4752436578273773" />
+                                       </color>
+                                    </DropShadow>
+                                 </effect>
+                              </ImageView>
+                              <Label layoutX="55.0" layoutY="75.0" prefHeight="34.0" prefWidth="109.0" text="Add to cart " textFill="WHITE">
+                                 <font>
+                                    <Font name="Arial Black" size="16.0" />
+                                 </font>
+                              </Label>
+                              <Button fx:id="addcartbtn8" layoutX="35.0" layoutY="71.0" mnemonicParsing="false" onAction="#buy" opacity="0.0" prefHeight="45.0" prefWidth="145.0" text="addToCart" />
+                           </children>
+                        </Pane>
+                     </children>
+                  </Pane>
+                  <Pane layoutX="678.0" layoutY="12.0" prefHeight="238.0" prefWidth="283.0">
+                     <children>
+                        <Rectangle arcHeight="35.0" arcWidth="35.0" fill="WHITE" height="211.0" layoutX="57.0" layoutY="15.0" stroke="#ffffff00" strokeLineCap="ROUND" strokeType="INSIDE" width="205.0">
+                           <effect>
+                              <DropShadow offsetY="2.0" spread="0.11">
+                                 <color>
+                                    <Color opacity="0.6139817833900452" />
+                                 </color>
+                              </DropShadow>
+                           </effect>
+                        </Rectangle>
+                        <Rectangle arcHeight="30.0" arcWidth="30.0" fill="#e4ade1" height="150.0" layoutX="57.0" layoutY="15.0" stroke="#e4ade1" strokeLineCap="ROUND" strokeType="INSIDE" width="205.0" />
+                        <ImageView fitHeight="164.0" fitWidth="168.0" layoutX="76.0" layoutY="12.0">
+                           <image>
+                              <Image url="@../Images/S3.1PRODUCTS.png" />
+                           </image>
+                        </ImageView>
+                        <Label fx:id="names3" layoutX="69.0" layoutY="170.0" prefHeight="13.0" prefWidth="182.0" text="Bil-Jac Picky No More" textFill="#190e6e">
+                           <font>
+                              <Font name="Arial Black" size="10.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="69.0" layoutY="183.0" prefHeight="15.0" prefWidth="186.0" text="Strips 6 in 1 - Fish Tank Test Kit" textFill="#190e6e">
+                           <font>
+                              <Font name="Arial Black" size="10.0" />
+                           </font>
+                        </Label>
+                        <ImageView fitHeight="37.0" fitWidth="45.0" layoutX="70.0" layoutY="182.0">
+                           <image>
+                              <Image url="@../Images/rating.png" />
+                           </image>
+                        </ImageView>
+                        <Label fx:id="prices3" layoutX="100.0" layoutY="202.0" prefHeight="20.0" prefWidth="48.0" text="1200.0" textFill="#ff740a">
+                           <font>
+                              <Font name="Arial Black" size="12.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="69.0" layoutY="203.0" prefHeight="15.0" prefWidth="30.0" text="PHP" textFill="#ff740a">
+                           <font>
+                              <Font name="Arial Black" size="12.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="201.0" layoutY="206.0" prefHeight="9.0" prefWidth="66.0" text="See Details" textFill="#190e6e">
+                           <font>
+                              <Font name="Arial" size="10.0" />
+                           </font>
+                        </Label>
+                        <Button fx:id="smallpetprod3" layoutX="57.0" layoutY="161.0" mnemonicParsing="false" onAction="#gotoSmallPetProd3" opacity="0.0" prefHeight="65.0" prefWidth="205.0" text="gotoDogProd1" />
+                        <Button fx:id="s2button" layoutX="58.0" layoutY="17.0" mnemonicParsing="false" opacity="0.0" prefHeight="149.0" prefWidth="205.0" text="hover" />
+                        <Pane fx:id="s2paneCart" layoutX="53.0" layoutY="13.0" prefHeight="224.0" prefWidth="207.0" visible="false">
+                           <children>
+                              <Rectangle arcHeight="35.0" arcWidth="35.0" height="212.0" layoutX="3.0" layoutY="1.0" opacity="0.47" stroke="#ffffff00" strokeLineCap="ROUND" strokeType="INSIDE" width="208.0">
+                                 <effect>
+                                    <DropShadow offsetY="2.0" spread="0.11">
+                                       <color>
+                                          <Color opacity="0.6139817833900452" />
+                                       </color>
+                                    </DropShadow>
+                                 </effect>
+                              </Rectangle>
+                              <ImageView fitHeight="39.0" fitWidth="144.0" layoutX="36.0" layoutY="74.0">
+                                 <image>
+                                    <Image url="@../Images/buttonhome.png" />
+                                 </image>
+                                 <effect>
+                                    <DropShadow offsetY="2.0">
+                                       <color>
+                                          <Color red="0.4842105209827423" green="0.4752436578273773" blue="0.4752436578273773" />
+                                       </color>
+                                    </DropShadow>
+                                 </effect>
+                              </ImageView>
+                              <Label layoutX="55.0" layoutY="75.0" prefHeight="34.0" prefWidth="109.0" text="Add to cart " textFill="WHITE">
+                                 <font>
+                                    <Font name="Arial Black" size="16.0" />
+                                 </font>
+                              </Label>
+                              <Button fx:id="addcartbtn9" layoutX="35.0" layoutY="72.0" mnemonicParsing="false" onAction="#buy" opacity="0.0" prefHeight="45.0" prefWidth="145.0" text="addToCart" />
+                           </children>
+                        </Pane>
+                     </children>
+                  </Pane>
+                  <Button layoutX="521.0" layoutY="502.0" mnemonicParsing="false" onAction="#handleButton2" style="-fx-background-color: #b9b9b9;" text="2" />
+                  <Button layoutX="495.0" layoutY="502.0" mnemonicParsing="false" onAction="#handleButton1" style="-fx-background-color: #ffffff;" text="1" />
+               </children>
+            </AnchorPane>
+            <AnchorPane fx:id="anchorPane1" prefHeight="554.0" prefWidth="1024.0">
+               <children>
+                  <Pane layoutX="40.0" layoutY="12.0" prefHeight="232.0" prefWidth="266.0">
+                     <children>
+                        <Rectangle arcHeight="35.0" arcWidth="35.0" fill="WHITE" height="211.0" layoutX="50.0" layoutY="16.0" stroke="#ffffff00" strokeLineCap="ROUND" strokeType="INSIDE" width="205.0">
+                           <effect>
+                              <DropShadow offsetY="2.0" spread="0.11">
+                                 <color>
+                                    <Color opacity="0.6139817833900452" />
+                                 </color>
+                              </DropShadow>
+                           </effect>
+                        </Rectangle>
+                        <Rectangle arcHeight="30.0" arcWidth="30.0" fill="#eedff8" height="150.0" layoutX="50.0" layoutY="16.0" stroke="#eedff8" strokeLineCap="ROUND" strokeType="INSIDE" width="205.0" />
+                        <ImageView fx:id="imageView" fitHeight="141.0" fitWidth="144.0" layoutX="80.0" layoutY="22.0">
+                           <image>
+                              <Image url="@../Images/1%20PRODUCT.png" />
+                           </image>
+                        </ImageView>
+                        <Label layoutX="66.0" layoutY="180.0" prefHeight="18.0" prefWidth="156.0" text="Vegetable Dry Dog Food" textFill="#190e6e">
+                           <font>
+                              <Font name="Arial Black" size="10.0" />
+                           </font>
+                        </Label>
+                        <Label fx:id="named1" layoutX="67.0" layoutY="168.0" prefHeight="13.0" prefWidth="182.0" text="Pedigree Grilled Steak" textFill="#190e6e">
+                           <font>
+                              <Font name="Arial Black" size="10.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="66.0" layoutY="204.0" prefHeight="15.0" prefWidth="30.0" text="PHP" textFill="#ff740a">
+                           <font>
+                              <Font name="Arial Black" size="12.0" />
+                           </font>
+                        </Label>
+                        <Label fx:id="priced1" layoutX="98.0" layoutY="203.0" prefHeight="20.0" prefWidth="78.0" text="1200.0" textFill="#ff740a">
+                           <font>
+                              <Font name="Arial Black" size="12.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="194.0" layoutY="167.0" prefHeight="18.0" prefWidth="61.0" text="and " textFill="#190e6e">
+                           <font>
+                              <Font name="Arial Black" size="10.0" />
+                           </font>
+                        </Label>
+                        <ImageView fitHeight="37.0" fitWidth="45.0" layoutX="67.0" layoutY="182.0">
+                           <image>
+                              <Image url="@../Images/rating.png" />
+                           </image>
+                        </ImageView>
+                        <Label layoutX="192.0" layoutY="206.0" prefHeight="9.0" prefWidth="66.0" text="See Details" textFill="#190e6e">
+                           <font>
+                              <Font name="Arial" size="10.0" />
+                           </font>
+                        </Label>
+                        <Button fx:id="dogprod1" layoutX="49.0" layoutY="162.0" mnemonicParsing="false" onAction="#gotoDogProd1" opacity="0.0" prefHeight="66.0" prefWidth="208.0" text="gotoDogProd1" />
+                        <Button fx:id="d1button" layoutX="51.0" layoutY="12.0" mnemonicParsing="false" opacity="0.0" prefHeight="149.0" prefWidth="205.0" text="hover" />
+                        <Pane fx:id="d1paneCart" layoutX="48.0" layoutY="13.0" prefHeight="224.0" prefWidth="207.0" visible="false">
+                           <children>
+                              <Rectangle arcHeight="35.0" arcWidth="35.0" height="212.0" layoutX="2.0" layoutY="2.0" opacity="0.47" stroke="#ffffff00" strokeLineCap="ROUND" strokeType="INSIDE" width="205.0">
+                                 <effect>
+                                    <DropShadow offsetY="2.0" spread="0.11">
+                                       <color>
+                                          <Color opacity="0.6139817833900452" />
+                                       </color>
+                                    </DropShadow>
+                                 </effect>
+                              </Rectangle>
+                              <ImageView fitHeight="39.0" fitWidth="144.0" layoutX="28.0" layoutY="74.0">
+                                 <image>
+                                    <Image url="@../Images/buttonhome.png" />
+                                 </image>
+                                 <effect>
+                                    <DropShadow offsetY="2.0">
+                                       <color>
+                                          <Color red="0.4842105209827423" green="0.4752436578273773" blue="0.4752436578273773" />
+                                       </color>
+                                    </DropShadow>
+                                 </effect>
+                              </ImageView>
+                              <Label layoutX="47.0" layoutY="75.0" prefHeight="34.0" prefWidth="109.0" text="Add to cart " textFill="WHITE">
+                                 <font>
+                                    <Font name="Arial Black" size="16.0" />
+                                 </font>
+                              </Label>
+                              <Button fx:id="addcartbtn4" layoutX="16.0" layoutY="74.0" mnemonicParsing="false" onAction="#buy" opacity="0.0" prefHeight="45.0" prefWidth="156.0" text="addToCart" />
+                           </children>
+                        </Pane>
+                     </children>
+                  </Pane>
+                  <Pane layoutX="383.0" layoutY="11.0" prefHeight="232.0" prefWidth="276.0">
+                     <children>
+                        <Rectangle arcHeight="35.0" arcWidth="35.0" fill="WHITE" height="211.0" layoutX="31.0" layoutY="17.0" stroke="#ffffff00" strokeLineCap="ROUND" strokeType="INSIDE" width="205.0">
+                           <effect>
+                              <DropShadow offsetY="2.0" spread="0.11">
+                                 <color>
+                                    <Color opacity="0.6139817833900452" />
+                                 </color>
+                              </DropShadow>
+                           </effect>
+                        </Rectangle>
+                        <Rectangle arcHeight="30.0" arcWidth="30.0" fill="#eedff8" height="150.0" layoutX="31.0" layoutY="17.0" stroke="#eedff8" strokeLineCap="ROUND" strokeType="INSIDE" width="205.0" />
+                        <ImageView fx:id="imageView1" fitHeight="150.0" fitWidth="143.0" layoutX="62.0" layoutY="19.0">
+                           <image>
+                              <Image url="@../Images/2%20PRODUCT.png" />
+                           </image>
+                        </ImageView>
+                        <Label fx:id="named2" layoutX="44.0" layoutY="169.0" prefHeight="13.0" prefWidth="182.0" text="Bil-Jac Picky No More" textFill="#190e6e">
+                           <font>
+                              <Font name="Arial Black" size="10.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="167.0" layoutY="169.0" prefHeight="15.0" prefWidth="66.0" text="Small Breed" textFill="#190e6e">
+                           <font>
+                              <Font name="Arial Black" size="10.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="44.0" layoutY="179.0" prefHeight="18.0" prefWidth="156.0" text="Chicken Liver Dry Dog Food" textFill="#190e6e">
+                           <font>
+                              <Font name="Arial Black" size="10.0" />
+                           </font>
+                        </Label>
+                        <ImageView fitHeight="37.0" fitWidth="45.0" layoutX="44.0" layoutY="181.0">
+                           <image>
+                              <Image url="@../Images/rating.png" />
+                           </image>
+                        </ImageView>
+                        <Label fx:id="priced2" layoutX="78.0" layoutY="202.0" prefHeight="20.0" prefWidth="48.0" text="1200.0" textFill="#ff740a">
+                           <font>
+                              <Font name="Arial Black" size="12.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="44.0" layoutY="203.0" prefHeight="15.0" prefWidth="30.0" text="PHP" textFill="#ff740a">
+                           <font>
+                              <Font name="Arial Black" size="12.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="179.0" layoutY="206.0" prefHeight="9.0" prefWidth="66.0" text="See Details" textFill="#190e6e">
+                           <font>
+                              <Font name="Arial" size="10.0" />
+                           </font>
+                        </Label>
+                        <Button fx:id="dogprod2" layoutX="31.0" layoutY="162.0" mnemonicParsing="false" onAction="#gotoDogProd2" opacity="0.0" prefHeight="66.0" prefWidth="205.0" text="gotoDogProd1" />
+                        <Button fx:id="d2button" layoutX="31.0" layoutY="17.0" mnemonicParsing="false" opacity="0.0" prefHeight="150.0" prefWidth="205.0" text="hover" />
+                        <Pane fx:id="d2paneCart" layoutX="29.0" layoutY="14.0" prefHeight="224.0" prefWidth="207.0" visible="false">
+                           <children>
+                              <Rectangle arcHeight="35.0" arcWidth="35.0" height="212.0" layoutX="2.0" layoutY="2.0" opacity="0.47" stroke="#ffffff00" strokeLineCap="ROUND" strokeType="INSIDE" width="205.0">
+                                 <effect>
+                                    <DropShadow offsetY="2.0" spread="0.11">
+                                       <color>
+                                          <Color opacity="0.6139817833900452" />
+                                       </color>
+                                    </DropShadow>
+                                 </effect>
+                              </Rectangle>
+                              <ImageView fitHeight="39.0" fitWidth="144.0" layoutX="34.0" layoutY="74.0">
+                                 <image>
+                                    <Image url="@../Images/buttonhome.png" />
+                                 </image>
+                                 <effect>
+                                    <DropShadow offsetY="2.0">
+                                       <color>
+                                          <Color red="0.4842105209827423" green="0.4752436578273773" blue="0.4752436578273773" />
+                                       </color>
+                                    </DropShadow>
+                                 </effect>
+                              </ImageView>
+                              <Label layoutX="53.0" layoutY="75.0" prefHeight="34.0" prefWidth="109.0" text="Add to cart " textFill="WHITE">
+                                 <font>
+                                    <Font name="Arial Black" size="16.0" />
+                                 </font>
+                              </Label>
+                              <Button fx:id="addcartbtn5" layoutX="30.0" layoutY="74.0" mnemonicParsing="false" onAction="#buy" opacity="0.0" prefHeight="40.0" prefWidth="156.0" text="addToCart" />
+                           </children>
+                        </Pane>
+                     </children>
+                  </Pane>
+                  <Pane layoutX="686.0" layoutY="11.0" prefHeight="232.0" prefWidth="283.0">
+                     <children>
+                        <Rectangle arcHeight="35.0" arcWidth="35.0" fill="WHITE" height="211.0" layoutX="50.0" layoutY="17.0" stroke="#ffffff00" strokeLineCap="ROUND" strokeType="INSIDE" width="205.0">
+                           <effect>
+                              <DropShadow offsetY="2.0" spread="0.11">
+                                 <color>
+                                    <Color opacity="0.6139817833900452" />
+                                 </color>
+                              </DropShadow>
+                           </effect>
+                        </Rectangle>
+                        <Rectangle arcHeight="30.0" arcWidth="30.0" fill="#eedff8" height="150.0" layoutX="50.0" layoutY="17.0" stroke="#eedff8" strokeLineCap="ROUND" strokeType="INSIDE" width="205.0" />
+                        <ImageView fitHeight="151.0" fitWidth="156.0" layoutX="77.0" layoutY="18.0">
+                           <image>
+                              <Image url="@../Images/3%20PRODUCT.png" />
+                           </image>
+                        </ImageView>
+                        <Label fx:id="named3" layoutX="61.0" layoutY="168.0" prefHeight="13.0" prefWidth="182.0" text="Cesar Simply Crafted" textFill="#190e6e">
+                           <font>
+                              <Font name="Arial Black" size="10.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="182.0" layoutY="168.0" prefHeight="15.0" prefWidth="66.0" text="Chicken" textFill="#190e6e">
+                           <font>
+                              <Font name="Arial Black" size="10.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="62.0" layoutY="177.0" prefHeight="18.0" prefWidth="156.0" text="Spinach Dog Food 1.3 oz" textFill="#190e6e">
+                           <font>
+                              <Font name="Arial Black" size="10.0" />
+                           </font>
+                        </Label>
+                        <ImageView fitHeight="37.0" fitWidth="45.0" layoutX="62.0" layoutY="178.0">
+                           <image>
+                              <Image url="@../Images/rating.png" />
+                           </image>
+                        </ImageView>
+                        <Label fx:id="priced3" layoutX="91.0" layoutY="198.0" prefHeight="20.0" prefWidth="48.0" text="1200.0" textFill="#ff740a">
+                           <font>
+                              <Font name="Arial Black" size="12.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="61.0" layoutY="199.0" prefHeight="15.0" prefWidth="30.0" text="PHP" textFill="#ff740a">
+                           <font>
+                              <Font name="Arial Black" size="12.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="199.0" layoutY="202.0" prefHeight="9.0" prefWidth="66.0" text="See Details" textFill="#190e6e">
+                           <font>
+                              <Font name="Arial" size="10.0" />
+                           </font>
+                        </Label>
+                        <Button fx:id="dogprod3" layoutX="49.0" layoutY="163.0" mnemonicParsing="false" onAction="#gotoDogProd3" opacity="0.0" prefHeight="65.0" prefWidth="207.0" text="gotoDogProd1" />
+                        <Button fx:id="d3button" layoutX="48.0" layoutY="15.0" mnemonicParsing="false" opacity="0.0" prefHeight="150.0" prefWidth="207.0" text="hover" />
+                        <Pane fx:id="d3paneCart" layoutX="48.0" layoutY="14.0" prefHeight="224.0" prefWidth="207.0" visible="false">
+                           <children>
+                              <Rectangle arcHeight="35.0" arcWidth="35.0" height="212.0" layoutX="2.0" layoutY="2.0" opacity="0.47" stroke="#ffffff00" strokeLineCap="ROUND" strokeType="INSIDE" width="205.0">
+                                 <effect>
+                                    <DropShadow offsetY="2.0" spread="0.11">
+                                       <color>
+                                          <Color opacity="0.6139817833900452" />
+                                       </color>
+                                    </DropShadow>
+                                 </effect>
+                              </Rectangle>
+                              <ImageView fitHeight="39.0" fitWidth="144.0" layoutX="34.0" layoutY="74.0">
+                                 <image>
+                                    <Image url="@../Images/buttonhome.png" />
+                                 </image>
+                                 <effect>
+                                    <DropShadow offsetY="2.0">
+                                       <color>
+                                          <Color red="0.4842105209827423" green="0.4752436578273773" blue="0.4752436578273773" />
+                                       </color>
+                                    </DropShadow>
+                                 </effect>
+                              </ImageView>
+                              <Label layoutX="53.0" layoutY="75.0" prefHeight="34.0" prefWidth="109.0" text="Add to cart " textFill="WHITE">
+                                 <font>
+                                    <Font name="Arial Black" size="16.0" />
+                                 </font>
+                              </Label>
+                              <Button fx:id="addcartbtn6" layoutX="30.0" layoutY="73.0" mnemonicParsing="false" onAction="#buy" opacity="0.0" prefHeight="44.0" prefWidth="151.0" text="addToCart" />
+                           </children>
+                        </Pane>
+                     </children>
+                  </Pane>
+                  <Pane layoutX="31.0" layoutY="249.0" prefHeight="238.0" prefWidth="283.0">
+                     <children>
+                        <Rectangle arcHeight="35.0" arcWidth="35.0" fill="WHITE" height="211.0" layoutX="58.0" layoutY="15.0" stroke="#ffffff00" strokeLineCap="ROUND" strokeType="INSIDE" width="205.0">
+                           <effect>
+                              <DropShadow offsetY="2.0" spread="0.11">
+                                 <color>
+                                    <Color opacity="0.6139817833900452" />
+                                 </color>
+                              </DropShadow>
+                           </effect>
+                        </Rectangle>
+                        <Rectangle arcHeight="30.0" arcWidth="30.0" fill="#f4efb0" height="150.0" layoutX="58.0" layoutY="15.0" stroke="#f4efb0" strokeLineCap="ROUND" strokeType="INSIDE" width="205.0" />
+                        <ImageView fx:id="imageView2" fitHeight="141.0" fitWidth="138.0" layoutX="86.0" layoutY="24.0">
+                           <image>
+                              <Image url="@../Images/C1.%20PRODUCT.png" />
+                           </image>
+                        </ImageView>
+                        <Label fx:id="namec1" layoutX="71.0" layoutY="167.0" prefHeight="13.0" prefWidth="182.0" text="Pedigree Grilled Steak and" textFill="#190e6e">
+                           <font>
+                              <Font name="Arial Black" size="10.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="72.0" layoutY="180.0" prefHeight="15.0" prefWidth="181.0" text="with Milk Dry Cat Food 1.1kg" textFill="#190e6e">
+                           <font>
+                              <Font name="Arial Black" size="10.0" />
+                           </font>
+                        </Label>
+                        <Label fx:id="pricec1" layoutX="102.0" layoutY="199.0" prefHeight="20.0" prefWidth="48.0" text="1200.0" textFill="#ff740a">
+                           <font>
+                              <Font name="Arial Black" size="12.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="71.0" layoutY="200.0" prefHeight="15.0" prefWidth="30.0" text="PHP" textFill="#ff740a">
+                           <font>
+                              <Font name="Arial Black" size="12.0" />
+                           </font>
+                        </Label>
+                        <ImageView fitHeight="37.0" fitWidth="45.0" layoutX="71.0" layoutY="178.0">
+                           <image>
+                              <Image url="@../Images/rating.png" />
+                           </image>
+                        </ImageView>
+                        <Label layoutX="199.0" layoutY="202.0" prefHeight="9.0" prefWidth="66.0" text="See Details" textFill="#190e6e">
+                           <font>
+                              <Font name="Arial" size="10.0" />
+                           </font>
+                        </Label>
+                        <Button fx:id="catprod1" layoutX="57.0" layoutY="165.0" mnemonicParsing="false" onAction="#gotoCatProd1" opacity="0.0" prefHeight="66.0" prefWidth="205.0" text="gotoDogProd1" />
+                        <Button fx:id="c1button" layoutX="58.0" layoutY="15.0" mnemonicParsing="false" opacity="0.0" prefHeight="139.0" prefWidth="205.0" text="hover" />
+                        <Pane fx:id="c1paneCart" layoutX="56.0" layoutY="12.0" prefHeight="224.0" prefWidth="207.0" visible="false">
+                           <children>
+                              <Rectangle arcHeight="35.0" arcWidth="35.0" height="212.0" layoutX="2.0" layoutY="2.0" opacity="0.47" stroke="#ffffff00" strokeLineCap="ROUND" strokeType="INSIDE" width="205.0">
+                                 <effect>
+                                    <DropShadow offsetY="2.0" spread="0.11">
+                                       <color>
+                                          <Color opacity="0.6139817833900452" />
+                                       </color>
+                                    </DropShadow>
+                                 </effect>
+                              </Rectangle>
+                              <ImageView fitHeight="39.0" fitWidth="144.0" layoutX="28.0" layoutY="74.0">
+                                 <image>
+                                    <Image url="@../Images/buttonhome.png" />
+                                 </image>
+                                 <effect>
+                                    <DropShadow offsetY="2.0">
+                                       <color>
+                                          <Color red="0.4842105209827423" green="0.4752436578273773" blue="0.4752436578273773" />
+                                       </color>
+                                    </DropShadow>
+                                 </effect>
+                              </ImageView>
+                              <Label layoutX="47.0" layoutY="75.0" prefHeight="34.0" prefWidth="109.0" text="Add to cart " textFill="WHITE">
+                                 <font>
+                                    <Font name="Arial Black" size="16.0" />
+                                 </font>
+                              </Label>
+                              <Button fx:id="addcartbtn1" layoutX="22.0" layoutY="70.0" mnemonicParsing="false" onAction="#buy" opacity="0.0" prefHeight="45.0" prefWidth="152.0" text="addToCart" />
+                           </children>
+                        </Pane>
+                     </children>
+                  </Pane>
+                  <Pane layoutX="382.0" layoutY="248.0" prefHeight="252.0" prefWidth="266.0">
+                     <children>
+                        <Rectangle arcHeight="35.0" arcWidth="35.0" fill="WHITE" height="211.0" layoutX="31.0" layoutY="17.0" stroke="#ffffff00" strokeLineCap="ROUND" strokeType="INSIDE" width="205.0">
+                           <effect>
+                              <DropShadow offsetY="2.0" spread="0.11">
+                                 <color>
+                                    <Color opacity="0.6139817833900452" />
+                                 </color>
+                              </DropShadow>
+                           </effect>
+                        </Rectangle>
+                        <Label fx:id="namec2" layoutX="43.0" layoutY="167.0" prefHeight="13.0" prefWidth="182.0" text="Bil-Jac Picky No More" textFill="#190e6e">
+                           <font>
+                              <Font name="Arial Black" size="10.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="44.0" layoutY="179.0" prefHeight="15.0" prefWidth="180.0" text="and Tuna Dry Cat Food 1.2kg" textFill="#190e6e">
+                           <font>
+                              <Font name="Arial Black" size="10.0" />
+                           </font>
+                        </Label>
+                        <ImageView fitHeight="37.0" fitWidth="45.0" layoutX="45.0" layoutY="179.0">
+                           <image>
+                              <Image url="@../Images/rating.png" />
+                           </image>
+                        </ImageView>
+                        <Label fx:id="pricec2" layoutX="78.0" layoutY="200.0" prefHeight="20.0" prefWidth="48.0" text="1200.0" textFill="#ff740a">
+                           <font>
+                              <Font name="Arial Black" size="12.0" />
+                           </font>
+                        </Label>
+                        <Rectangle arcHeight="30.0" arcWidth="30.0" fill="#f4efb0" height="150.0" layoutX="31.0" layoutY="17.0" stroke="#f4efb0" strokeLineCap="ROUND" strokeType="INSIDE" width="205.0" />
+                        <ImageView fx:id="imageView11" fitHeight="126.0" fitWidth="144.0" layoutX="62.0" layoutY="29.0">
+                           <image>
+                              <Image url="@../Images/C2.%20PRODUCT.png" />
+                           </image>
+                        </ImageView>
+                        <Label layoutX="46.0" layoutY="201.0" prefHeight="15.0" prefWidth="30.0" text="PHP" textFill="#ff740a">
+                           <font>
+                              <Font name="Arial Black" size="12.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="177.0" layoutY="204.0" prefHeight="9.0" prefWidth="66.0" text="See Details" textFill="#190e6e">
+                           <font>
+                              <Font name="Arial" size="10.0" />
+                           </font>
+                        </Label>
+                        <Button fx:id="catprod2" layoutX="29.0" layoutY="165.0" mnemonicParsing="false" onAction="#gotoCatProd2" opacity="0.0" prefHeight="66.0" prefWidth="208.0" text="gotoDogProd1" />
+                        <Button fx:id="c2button" layoutX="29.0" layoutY="15.0" mnemonicParsing="false" opacity="0.0" prefHeight="150.0" prefWidth="207.0" text="hover" />
+                        <Pane fx:id="c2paneCart" layoutX="29.0" layoutY="14.0" prefHeight="224.0" prefWidth="207.0" visible="false">
+                           <children>
+                              <Rectangle arcHeight="35.0" arcWidth="35.0" height="212.0" layoutX="2.0" layoutY="2.0" opacity="0.47" stroke="#ffffff00" strokeLineCap="ROUND" strokeType="INSIDE" width="205.0">
+                                 <effect>
+                                    <DropShadow offsetY="2.0" spread="0.11">
+                                       <color>
+                                          <Color opacity="0.6139817833900452" />
+                                       </color>
+                                    </DropShadow>
+                                 </effect>
+                              </Rectangle>
+                              <ImageView fitHeight="39.0" fitWidth="144.0" layoutX="28.0" layoutY="74.0">
+                                 <image>
+                                    <Image url="@../Images/buttonhome.png" />
+                                 </image>
+                                 <effect>
+                                    <DropShadow offsetY="2.0">
+                                       <color>
+                                          <Color red="0.4842105209827423" green="0.4752436578273773" blue="0.4752436578273773" />
+                                       </color>
+                                    </DropShadow>
+                                 </effect>
+                              </ImageView>
+                              <Label layoutX="47.0" layoutY="75.0" prefHeight="34.0" prefWidth="109.0" text="Add to cart " textFill="WHITE">
+                                 <font>
+                                    <Font name="Arial Black" size="16.0" />
+                                 </font>
+                              </Label>
+                              <Button fx:id="addcartbtn2" layoutX="28.0" layoutY="70.0" mnemonicParsing="false" onAction="#buy" opacity="0.0" prefHeight="45.0" prefWidth="145.0" text="addToCart" />
+                           </children>
+                        </Pane>
+                     </children>
+                  </Pane>
+                  <Pane layoutX="683.0" layoutY="248.0" prefHeight="232.0" prefWidth="266.0">
+                     <children>
+                        <Rectangle arcHeight="35.0" arcWidth="35.0" fill="WHITE" height="211.0" layoutX="54.0" layoutY="17.0" stroke="#ffffff00" strokeLineCap="ROUND" strokeType="INSIDE" width="205.0">
+                           <effect>
+                              <DropShadow offsetY="2.0" spread="0.11">
+                                 <color>
+                                    <Color opacity="0.6139817833900452" />
+                                 </color>
+                              </DropShadow>
+                           </effect>
+                        </Rectangle>
+                        <Rectangle arcHeight="30.0" arcWidth="30.0" fill="#f4efb0" height="150.0" layoutX="54.0" layoutY="17.0" stroke="#f4efb0" strokeLineCap="ROUND" strokeType="INSIDE" width="205.0" />
+                        <ImageView fx:id="imageView111" fitHeight="142.0" fitWidth="156.0" layoutX="77.0" layoutY="22.0">
+                           <image>
+                              <Image url="@../Images/C3.%20PRODUCT.png" />
+                           </image>
+                        </ImageView>
+                        <Label fx:id="namec3" layoutX="67.0" layoutY="168.0" prefHeight="13.0" prefWidth="182.0" text="Bil-Jac Picky No More" textFill="#190e6e">
+                           <font>
+                              <Font name="Arial Black" size="10.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="68.0" layoutY="181.0" prefHeight="15.0" prefWidth="180.0" text="Fish Wet Cat Food 85g (A-03)" textFill="#190e6e">
+                           <font>
+                              <Font name="Arial Black" size="10.0" />
+                           </font>
+                        </Label>
+                        <ImageView fitHeight="37.0" fitWidth="45.0" layoutX="68.0" layoutY="181.0">
+                           <image>
+                              <Image url="@../Images/rating.png" />
+                           </image>
+                        </ImageView>
+                        <Label fx:id="pricec3" layoutX="103.0" layoutY="202.0" prefHeight="20.0" prefWidth="48.0" text="1200.0" textFill="#ff740a">
+                           <font>
+                              <Font name="Arial Black" size="12.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="69.0" layoutY="203.0" prefHeight="15.0" prefWidth="30.0" text="PHP" textFill="#ff740a">
+                           <font>
+                              <Font name="Arial Black" size="12.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="200.0" layoutY="206.0" prefHeight="9.0" prefWidth="66.0" text="See Details" textFill="#190e6e">
+                           <font>
+                              <Font name="Arial" size="10.0" />
+                           </font>
+                        </Label>
+                        <Button fx:id="catprod3" layoutX="51.0" layoutY="162.0" mnemonicParsing="false" onAction="#gotoCatProd3" opacity="0.0" prefHeight="66.0" prefWidth="208.0" text="gotoDogProd1" />
+                        <Button fx:id="c3button" layoutX="54.0" layoutY="17.0" mnemonicParsing="false" opacity="0.0" prefHeight="150.0" prefWidth="205.0" text="hover" />
+                        <Pane fx:id="c3paneCart" layoutX="52.0" layoutY="14.0" prefHeight="224.0" prefWidth="207.0" visible="false">
+                           <children>
+                              <Rectangle arcHeight="35.0" arcWidth="35.0" height="212.0" layoutX="2.0" layoutY="2.0" opacity="0.47" stroke="#ffffff00" strokeLineCap="ROUND" strokeType="INSIDE" width="205.0">
+                                 <effect>
+                                    <DropShadow offsetY="2.0" spread="0.11">
+                                       <color>
+                                          <Color opacity="0.6139817833900452" />
+                                       </color>
+                                    </DropShadow>
+                                 </effect>
+                              </Rectangle>
+                              <ImageView fitHeight="39.0" fitWidth="144.0" layoutX="28.0" layoutY="74.0">
+                                 <image>
+                                    <Image url="@../Images/buttonhome.png" />
+                                 </image>
+                                 <effect>
+                                    <DropShadow offsetY="2.0">
+                                       <color>
+                                          <Color red="0.4842105209827423" green="0.4752436578273773" blue="0.4752436578273773" />
+                                       </color>
+                                    </DropShadow>
+                                 </effect>
+                              </ImageView>
+                              <Label layoutX="47.0" layoutY="75.0" prefHeight="34.0" prefWidth="109.0" text="Add to cart " textFill="WHITE">
+                                 <font>
+                                    <Font name="Arial Black" size="16.0" />
+                                 </font>
+                              </Label>
+                              <Button fx:id="addcartbtn3" layoutX="28.0" layoutY="71.0" mnemonicParsing="false" onAction="#buy" opacity="0.0" prefHeight="45.0" prefWidth="145.0" text="addToCart" />
+                           </children>
+                        </Pane>
+                     </children>
+                  </Pane>
+                  <Button layoutX="521.0" layoutY="502.0" mnemonicParsing="false" onAction="#handleButton2" style="-fx-background-color: #ffffff;" text="2" />
+                  <Button layoutX="495.0" layoutY="502.0" mnemonicParsing="false" onAction="#handleButton1" style="-fx-background-color: #b9b9b9;" text="1" />
+               </children>
+            </AnchorPane>
+         </children>
+      </StackPane>
+      <Rectangle arcHeight="35.0" arcWidth="35.0" fill="#f4efb0" height="149.0" layoutX="138.0" layoutY="387.0" stroke="#ffffff00" strokeLineCap="ROUND" strokeType="INSIDE" width="164.0">
+         <effect>
+            <DropShadow offsetY="2.0" spread="0.11">
+               <color>
+                  <Color opacity="0.6139817833900452" />
+               </color>
+            </DropShadow>
+         </effect>
+      </Rectangle>
+      <Rectangle arcHeight="35.0" arcWidth="35.0" fill="#e4ade1" height="150.0" layoutX="139.0" layoutY="563.0" stroke="#ffffff00" strokeLineCap="ROUND" strokeType="INSIDE" width="164.0">
+         <effect>
+            <DropShadow offsetY="2.0" spread="0.11">
+               <color>
+                  <Color opacity="0.6139817833900452" />
+               </color>
+            </DropShadow>
+         </effect>
+      </Rectangle>
+      <ImageView fitHeight="150.0" fitWidth="168.0" layoutX="135.0" layoutY="220.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Images/dog%20shopbg.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="157.0" fitWidth="131.0" layoutX="158.0" layoutY="179.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Images/dog%20.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="130.0" fitWidth="96.0" layoutX="164.0" layoutY="375.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Images/cat.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="90.0" fitWidth="145.0" layoutX="147.0" layoutY="570.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Images/rabbit.png" />
+         </image>
+      </ImageView>
+      <Label layoutX="201.0" layoutY="321.0" text="Dog" textFill="#1b0e70">
+         <font>
+            <Font name="Arial Black" size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="200.0" layoutY="493.0" text="Cat" textFill="#1b0e70">
+         <font>
+            <Font name="Arial Black" size="20.0" />
+         </font>
+      </Label>
+      <Text fill="#1b0e70" layoutX="187.0" layoutY="358.0" strokeType="OUTSIDE" strokeWidth="0.0" text="by Dr. Mucho">
+         <font>
+            <Font name="Arial" size="12.0" />
+         </font>
+      </Text>
+      <Button fx:id="catcategory" layoutX="142.0" layoutY="383.0" mnemonicParsing="false" onAction="#gotoCatCategory" opacity="0.0" prefHeight="157.0" prefWidth="164.0" text="CatCategory" />
+      <Text fill="#1b0e70" layoutX="190.0" layoutY="528.0" strokeType="OUTSIDE" strokeWidth="0.0" text="by Dr. Lucy">
+         <font>
+            <Font name="Arial" size="12.0" />
+         </font>
+      </Text>
+      <Label layoutX="168.0" layoutY="658.0" text="Small Pet" textFill="#1b0e70">
+         <font>
+            <Font name="Arial Black" size="20.0" />
+         </font>
+      </Label>
+      <Text fill="#1b0e70" layoutX="182.0" layoutY="693.0" strokeType="OUTSIDE" strokeWidth="0.0" text="by Dr. Georgie">
+         <font>
+            <Font name="Arial" size="12.0" />
+         </font>
+      </Text>
+      <Button fx:id="dogcategory" layoutX="133.0" layoutY="204.0" mnemonicParsing="false" onAction="#gotoDogCategory" opacity="0.0" prefHeight="164.0" prefWidth="175.0" text="DogCategory" />
+      <Button fx:id="smallpetcategory" layoutX="138.0" layoutY="561.0" mnemonicParsing="false" onAction="#gotoSmallPetCategory" opacity="0.0" prefHeight="154.0" prefWidth="164.0" text="SmallPetCategory" />
+   </children>
+</Pane>

@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.effect.DropShadow?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.StackPane?>
+<?import javafx.scene.paint.Color?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="786.05" prefWidth="1397.42" style="-fx-background-color: #ffffff;" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller.DogProduct1Controller">
+   <children>
+      <ImageView fitHeight="140.97" fitWidth="138.29" layoutX="75.5" layoutY="10.0">
+         <image>
+            <Image url="@../Images/logo.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="592.45" fitWidth="1262.97" layoutX="75.5" layoutY="135.91">
+         <image>
+            <Image url="@../Images/bg.png" />
+         </image>
+      </ImageView>
+      <Rectangle arcHeight="30.0" arcWidth="30.0" fill="WHITE" height="35.0" layoutX="148.0" layoutY="156.0" stroke="WHITE" strokeLineCap="ROUND" strokeType="INSIDE" width="312.0">
+         <effect>
+            <DropShadow offsetY="2.0" spread="0.11">
+               <color>
+                  <Color opacity="0.6139817833900452" />
+               </color>
+            </DropShadow>
+         </effect>
+      </Rectangle>
+      <Label layoutX="170.0" layoutY="165.0" text="DOG PRODUCT BY DR. MUCHO" textFill="#190e6e">
+         <font>
+            <Font name="Arial Black" size="12.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="66.0" fitWidth="113.0" layoutX="359.0" layoutY="126.0">
+         <image>
+            <Image url="@../Images/dogproduct.png" />
+         </image>
+      </ImageView>
+      <Rectangle arcHeight="30.0" arcWidth="30.0" fill="#eedff8" height="473.0" layoutX="149.0" layoutY="210.0" stroke="#ffffff00" strokeLineCap="ROUND" strokeType="INSIDE" width="1098.0">
+         <effect>
+            <DropShadow offsetY="2.0" spread="0.11">
+               <color>
+                  <Color opacity="0.6139817833900452" />
+               </color>
+            </DropShadow>
+         </effect>
+      </Rectangle>
+      <Rectangle arcHeight="30.0" arcWidth="30.0" fill="WHITE" height="95.34" layoutX="180.5" layoutY="240.18" stroke="WHITE" strokeLineCap="ROUND" strokeType="INSIDE" width="95.34">
+         <effect>
+            <DropShadow height="16.32" offsetY="3.0" radius="6.49" spread="0.07" width="11.64">
+               <color>
+                  <Color opacity="0.6139817833900452" />
+               </color>
+            </DropShadow>
+         </effect>
+      </Rectangle>
+      <Rectangle arcHeight="30.0" arcWidth="30.0" fill="WHITE" height="95.34" layoutX="180.5" layoutY="350.81" stroke="WHITE" strokeLineCap="ROUND" strokeType="INSIDE" width="95.34">
+         <effect>
+            <DropShadow height="16.32" offsetY="3.0" radius="6.49" spread="0.07" width="11.64">
+               <color>
+                  <Color opacity="0.6139817833900452" />
+               </color>
+            </DropShadow>
+         </effect>
+      </Rectangle>
+      <Rectangle arcHeight="30.0" arcWidth="30.0" fill="WHITE" height="95.34" layoutX="180.5" layoutY="461.44" stroke="WHITE" strokeLineCap="ROUND" strokeType="INSIDE" width="95.34">
+         <effect>
+            <DropShadow height="16.32" offsetY="3.0" radius="6.49" spread="0.07" width="11.64">
+               <color>
+                  <Color opacity="0.6139817833900452" />
+               </color>
+            </DropShadow>
+         </effect>
+      </Rectangle>
+      <Rectangle arcHeight="30.0" arcWidth="30.0" fill="WHITE" height="413.4" layoutX="294.4" layoutY="240.18" stroke="WHITE" strokeLineCap="ROUND" strokeType="INSIDE" width="461.44">
+         <effect>
+            <DropShadow height="16.32" offsetY="3.0" radius="6.49" spread="0.07" width="11.64">
+               <color>
+                  <Color opacity="0.6139817833900452" />
+               </color>
+            </DropShadow>
+         </effect>
+      </Rectangle>
+      <ImageView fitHeight="72.05" fitWidth="72.05" layoutX="192.0" layoutY="252.0">
+         <image>
+            <Image url="@../Images/1%20PRODUCT.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="67.0" fitWidth="67.0" layoutX="192.0" layoutY="365.0">
+         <image>
+            <Image url="@../Images/1.1%20PRODUCT.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="63.32" fitWidth="63.32" layoutX="196.0" layoutY="478.0">
+         <image>
+            <Image url="@../Images/1.2%20PRODUCT.png" />
+         </image>
+      </ImageView>
+      <Label fx:id="named1" layoutX="775.0" layoutY="244.0" prefHeight="38.0" prefWidth="461.0" text="Pedigree Grilled Steak and" textFill="#190e6e">
+         <font>
+            <Font name="Arial Black" size="30.0" />
+         </font>
+      </Label>
+      <Label fx:id="named11" layoutX="775.0" layoutY="277.0" prefHeight="38.0" prefWidth="461.0" text="Vegetable Dry Dog Food for" textFill="#190e6e">
+         <font>
+            <Font name="Arial Black" size="30.0" />
+         </font>
+      </Label>
+      <Label fx:id="named111" layoutX="775.0" layoutY="312.0" prefHeight="38.0" prefWidth="461.0" text="Small Adult Dog, 14lb. Bag" textFill="#190e6e">
+         <font>
+            <Font name="Arial Black" size="30.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="91.0" fitWidth="98.0" layoutX="777.0" layoutY="318.0">
+         <image>
+            <Image url="@../Images/rating.png" />
+         </image>
+      </ImageView>
+      <Label layoutX="884.0" layoutY="356.0" prefHeight="17.0" prefWidth="74.0" text="5.0 Rating" textFill="#190e6e">
+         <font>
+            <Font name="Arial" size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="779.0" layoutY="384.0" prefHeight="44.0" prefWidth="74.0" text="PHP" textFill="#ff740a">
+         <font>
+            <Font name="Arial Black" size="28.0" />
+         </font>
+      </Label>
+      <Text fill="#7f7f7f" layoutX="965.0" layoutY="409.0" strikethrough="true" strokeType="OUTSIDE" strokeWidth="0.0" text="PHP 1618">
+         <font>
+            <Font name="Arial" size="15.0" />
+         </font>
+      </Text>
+      <Label layoutX="780.0" layoutY="415.0" prefHeight="44.0" prefWidth="178.0" text="Lowest Price Guaranteed!" textFill="#1b0e70">
+         <font>
+            <Font name="Arial Black" size="12.0" />
+         </font>
+      </Label>
+      <Label layoutX="780.0" layoutY="465.0" prefHeight="17.0" prefWidth="424.0" text="Even little dogs need a large amount of nutrition. That's why every " textFill="#190e6e">
+         <font>
+            <Font name="Arial" size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="780.0" layoutY="485.0" prefHeight="17.0" prefWidth="424.0" text="PEDIGREE Small Dog Grilled Steak and Vegetable Flavor Dry Dog " textFill="#190e6e">
+         <font>
+            <Font name="Arial" size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="780.0" layoutY="504.0" prefHeight="17.0" prefWidth="424.0" text="Food has the vitamins and minerals dogs need to be healthy." textFill="#190e6e">
+         <font>
+            <Font name="Arial" size="14.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="32.0" fitWidth="33.0" layoutX="1096.0" layoutY="615.0">
+         <image>
+            <Image url="@../Images/logo.png" />
+         </image>
+      </ImageView>
+      <Label layoutX="1132.0" layoutY="609.0" prefHeight="44.0" prefWidth="113.0" text="Paw Guarantee" textFill="#1b0e70">
+         <font>
+            <Font name="Arial Black" size="12.0" />
+         </font>
+      </Label>
+      <StackPane fx:id="stackPane" layoutX="329.0" layoutY="269.0" prefHeight="349.0" prefWidth="371.0">
+         <children>
+            <ImageView fitHeight="371.0" fitWidth="395.0" visible="false">
+               <image>
+                  <Image url="@../Images/1.2%20PRODUCT.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="371.0" fitWidth="395.0" visible="false">
+               <image>
+                  <Image url="@../Images/1.1%20PRODUCT.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="imageView" fitHeight="371.0" fitWidth="395.0">
+               <image>
+                  <Image url="@../Images/1%20PRODUCT.png" />
+               </image>
+            </ImageView>
+         </children>
+      </StackPane>
+      <ImageView fitHeight="30.0" fitWidth="33.0" layoutX="694.0" layoutY="427.0" pickOnBounds="true" preserveRatio="true" rotate="180.0">
+         <image>
+            <Image url="@../Images/backbutton.png" />
+         </image>
+      </ImageView>
+      <Button fx:id="nextimage" layoutX="692.0" layoutY="421.0" mnemonicParsing="false" onAction="#handleNextButtonClick" opacity="0.0" prefHeight="42.0" prefWidth="36.0" text="nextimage" />
+      <Button fx:id="lowestpricebtn" layoutX="777.0" layoutY="428.0" mnemonicParsing="false" onAction="#handleLowestPriceButtonClick" opacity="0.0" prefHeight="17.0" prefWidth="178.0" text="lowestprice" />
+      <Button fx:id="pawgntbtn" layoutX="1091.0" layoutY="617.0" mnemonicParsing="false" onAction="#handlePawgntButtonClick" opacity="0.0" prefHeight="30.0" prefWidth="149.0" text="paw guarantee" />
+      <Label fx:id="priced1" layoutX="852.0" layoutY="384.0" prefHeight="44.0" prefWidth="113.0" text="1518.0" textFill="#ff740a">
+         <font>
+            <Font name="Arial Black" size="28.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="66.0" fitWidth="420.0" layoutX="773.0" layoutY="533.0">
+         <image>
+            <Image url="@../Images/button%20back%20to%20prods.png" />
+         </image>
+         <effect>
+            <DropShadow offsetY="2.0">
+               <color>
+                  <Color red="0.4842105209827423" green="0.4752436578273773" blue="0.4752436578273773" />
+               </color>
+            </DropShadow>
+         </effect>
+      </ImageView>
+      <Label layoutX="831.0" layoutY="542.0" prefHeight="49.0" prefWidth="403.0" text="Return to All Products to Buy" textFill="WHITE">
+         <font>
+            <Font name="Arial Black" size="21.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="28.0" fitWidth="28.0" layoutX="793.0" layoutY="553.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Images/return.png" />
+         </image>
+      </ImageView>
+      <Button fx:id="closeButton" layoutX="779.0" layoutY="537.0" mnemonicParsing="false" onAction="#closeScene" opacity="0.0" prefHeight="56.0" prefWidth="412.0" text="addToCart" />
+   </children>
+</Pane>

@@ -1,0 +1,4 @@
+.hoverstyle:hover{
+    -fx-border-color: #30248e;
+    -fx-border-width: 0px 0px 3px 0px;
+}
